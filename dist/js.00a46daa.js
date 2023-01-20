@@ -36230,6 +36230,7 @@ var Slides = /*#__PURE__*/function () {
       var location = createEleWithClass("p", "slide-location");
       var locationn = createEleWithClass("p", "slide-locationn");
       var logo9 = createEleWithClass("div", "slide-logo9");
+      var logo10 = createEleWithClass("div", "slide-logo10");
       more.href = "#";
       slide.classList.add(index !== 0 ? "next" : "show-meta");
       meta.innerHTML = entry.meta;
@@ -36274,6 +36275,7 @@ var Slides = /*#__PURE__*/function () {
       location.innerHTML = entry.location;
       locationn.innerHTML = entry.locationn;
       logo9.innerHTML = entry.logo9;
+      logo10.innerHTML = entry.logo10;
       slide.appendChild(title);
       slide.appendChild(more);
       slide.appendChild(heena);
@@ -36316,6 +36318,7 @@ var Slides = /*#__PURE__*/function () {
       slide.appendChild(location);
       slide.appendChild(locationn);
       slide.appendChild(logo9);
+      slide.appendChild(logo10);
       _this.container.appendChild(slide);
       return slide;
     });
@@ -36539,6 +36542,7 @@ var slidesData = [{
   logo7: "",
   logo8: "",
   logo9: "",
+  logo10: "",
   email: "",
   emaill: "",
   location: "",
@@ -36583,6 +36587,7 @@ var slidesData = [{
   logo7: "",
   logo8: "",
   logo9: "",
+  logo10: "",
   email: "",
   emaill: "",
   location: "",
@@ -36627,6 +36632,7 @@ var slidesData = [{
   logo7: "",
   logo8: "",
   logo9: "",
+  logo10: "",
   email: "",
   emaill: "",
   location: "",
@@ -36671,6 +36677,7 @@ var slidesData = [{
   logo7: "",
   logo8: "",
   logo9: "",
+  logo10: "",
   email: "",
   emaill: "",
   location: "",
@@ -36715,6 +36722,7 @@ var slidesData = [{
   logo7: "<img src='https://i.ibb.co/JQkhDLX/0ead656a-b9c2-4d75-99c0-4ad102818f1b.jpg' style='width:100%; height:100%; border-radius:5px;'>",
   logo8: "<img src='https://i.ibb.co/JqMSQWt/bfcb30c8-a75b-4fb6-944c-9f471eebd9d0.jpg' style='width:100%; height:100%; border-radius:5px;'>",
   logo9: "<img src='https://i.ibb.co/v1jtfVV/image.png' style='width:100%; height:100%; border-radius:5px;'>",
+  logo10: "<img src='https://i.ibb.co/zsqWkF7/c554ff98-2173-4a18-8492-cdc2a8fea438.jpg' style='width:100%; height:100%; border-radius:5px;'>",
   email: "",
   emaill: "",
   location: "",
@@ -36759,6 +36767,7 @@ var slidesData = [{
   logo7: "",
   logo8: "",
   logo9: "",
+  logo10: "",
   email: " <i class='fa fa-envelope' style='color: #FFF;'></i> ",
   emaill: "info@knowhow.sa",
   location: "<i class='fa fa-map-marker' style='color: #FFF;'></i>",
@@ -36824,7 +36833,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53962" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58811" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

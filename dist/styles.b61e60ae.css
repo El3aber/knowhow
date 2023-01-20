@@ -463,7 +463,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-arkam {
     font-size: 4vw;
-    top: -10%;
+    top: -18%;
     text-align: right;
   }
 }
@@ -488,8 +488,8 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-hakakna {
-    font-size: 4vw;
-    top: 0%;
+    font-size: 5vw;
+    top: -5%;
     left: 45%;
   }
 }
@@ -514,9 +514,9 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-zohor {
-    font-size: 3vw;
-    top: 15%;
-    left: 35%;
+    font-size: 6vw;
+    top: 5%;
+    left: 20%;
   }
 }
 .prev .slide-zohor,
@@ -539,8 +539,8 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-katabna {
-    font-size: 4vw;
-    top: 30%;
+    font-size: 5vw;
+    top: 25%;
     left: 45%;
   }
 }
@@ -565,9 +565,9 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-mohtawa {
-    font-size: 3vw;
-    top: 45%;
-    left: 39%;
+    font-size: 6vw;
+    top: 35%;
+    left: 28%;
   }
 }
 .prev .slide-mohtawa,
@@ -591,8 +591,8 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-nafazna {
-    font-size: 4vw;
-    top: 60%;
+    font-size: 5vw;
+    top: 55%;
     left: 45%;
   }
 }
@@ -617,9 +617,9 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-graphic {
-    font-size: 3vw;
-    top: 75%;
-    left: 33%;
+    font-size: 6vw;
+    top: 65%;
+    left: 15%;
   }
 }
 .prev .slide-graphic,
@@ -642,8 +642,8 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-antjna {
-    font-size: 4vw;
-    top: 90%;
+    font-size: 5vw;
+    top: 85%;
     left: 45%;
   }
 }
@@ -668,9 +668,9 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-maktaa {
-    font-size: 3vw;
-    top: 105%;
-    left: 36%;
+    font-size: 6vw;
+    top: 95%;
+    left: 20%;
   }
 }
 .prev .slide-maktaa,
@@ -694,8 +694,8 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-aalna {
-    font-size: 4vw;
-    top: 120%;
+    font-size: 5vw;
+    top: 115%;
     left: 42%;
   }
 }
@@ -720,9 +720,9 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-molen {
-    font-size: 3vw;
-    top: 135%;
-    left: 37%;
+    font-size: 6vw;
+    top: 125%;
+    left: 25%;
   }
 }
 .prev .slide-molen,
@@ -1008,6 +1008,28 @@ canvas {
   display: none;
 }
 /* ----------------------------------------------------------------slide-logo9-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo910-------------------------------------------------------------------------------- */
+.slide-logo10 {
+  position: absolute;
+  top: 52%;
+  right: 32%;
+  width:8% ;
+  height:24% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo10 {
+    top: 56%;
+    right:26%;
+    width: 16%;
+    height: 16%;
+  }
+}
+.prev .slide-logo10,
+.next .slide-logo10 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo10-------------------------------------------------------------------------------- */
 
 
 /* ----------------------------------------------------------------slide-email-------------------------------------------------------------------------------- */
