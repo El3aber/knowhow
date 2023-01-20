@@ -36226,6 +36226,10 @@ var Slides = /*#__PURE__*/function () {
       var logo7 = createEleWithClass("div", "slide-logo7");
       var logo8 = createEleWithClass("div", "slide-logo8");
       var email = createEleWithClass("p", "slide-email");
+      var emaill = createEleWithClass("p", "slide-emaill");
+      var location = createEleWithClass("p", "slide-location");
+      var locationn = createEleWithClass("p", "slide-locationn");
+      var logo9 = createEleWithClass("div", "slide-logo9");
       more.href = "#";
       slide.classList.add(index !== 0 ? "next" : "show-meta");
       meta.innerHTML = entry.meta;
@@ -36266,6 +36270,10 @@ var Slides = /*#__PURE__*/function () {
       logo7.innerHTML = entry.logo7;
       logo8.innerHTML = entry.logo8;
       email.innerHTML = entry.email;
+      emaill.innerHTML = entry.emaill;
+      location.innerHTML = entry.location;
+      locationn.innerHTML = entry.locationn;
+      logo9.innerHTML = entry.logo9;
       slide.appendChild(title);
       slide.appendChild(more);
       slide.appendChild(heena);
@@ -36304,6 +36312,10 @@ var Slides = /*#__PURE__*/function () {
       slide.appendChild(logo7);
       slide.appendChild(logo8);
       slide.appendChild(email);
+      slide.appendChild(emaill);
+      slide.appendChild(location);
+      slide.appendChild(locationn);
+      slide.appendChild(logo9);
       _this.container.appendChild(slide);
       return slide;
     });
@@ -36473,8 +36485,8 @@ var Cursor = /*#__PURE__*/function () {
   return Cursor;
 }();
 exports.Cursor = Cursor;
-},{}],"images/a.png":[function(require,module,exports) {
-module.exports = "/a.6220ceb9.png";
+},{}],"images/1.jpg":[function(require,module,exports) {
+module.exports = "/1.106c6bd6.jpg";
 },{}],"images/2.png":[function(require,module,exports) {
 module.exports = "/2.34844cc1.png";
 },{}],"js/index.js":[function(require,module,exports) {
@@ -36483,13 +36495,13 @@ module.exports = "/2.34844cc1.png";
 var _Showcase = require("./Showcase");
 var _Slides = require("./Slides");
 var _Cursor = require("./Cursor");
-var _a = _interopRequireDefault(require("../images/a.png"));
-var _ = _interopRequireDefault(require("../images/2.png"));
+var _ = _interopRequireDefault(require("../images/1.jpg"));
+var _2 = _interopRequireDefault(require("../images/2.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var container = document.getElementById("app");
 var cursor = new _Cursor.Cursor(document.querySelector(".cursor"));
 var slidesData = [{
-  image: _a.default,
+  image: _.default,
   title: "المعرفة أساس الوصول",
   more: "",
   meta: "",
@@ -36526,10 +36538,14 @@ var slidesData = [{
   logo6: "",
   logo7: "",
   logo8: "",
+  logo9: "",
   email: "",
+  emaill: "",
+  location: "",
+  locationn: "",
   heena: ""
 }, {
-  image: _.default,
+  image: _2.default,
   title: "",
   more: ",حين بدأنا",
   meta: "منذ 10 سنوات .. انطلقنا في رحلة غامرة بتفاصيلها، في عالم التسويق الإلكتروني والإعلام الرقمي، وصرنا أكثر دراية بمساراته المختلفة والمتنوعة، وقدرة على تحديد الوجهة لكل من أراد الانطلاق والوصول، بفريق يمتلك مهارة عالية وخبرات متعددة، يقوم بأداء مهامه على أكمل وجه، لنصل نحن وشركاؤنا ونحقق الأهداف",
@@ -36566,10 +36582,14 @@ var slidesData = [{
   logo6: "",
   logo7: "",
   logo8: "",
+  logo9: "",
   email: "",
+  emaill: "",
+  location: "",
+  locationn: "",
   heena: "حين تود الإنطلاق نرسم لك مسارك"
 }, {
-  image: _.default,
+  image: _2.default,
   title: "",
   more: "",
   meta: "",
@@ -36606,10 +36626,14 @@ var slidesData = [{
   logo6: "",
   logo7: "",
   logo8: "",
+  logo9: "",
   email: "",
+  emaill: "",
+  location: "",
+  locationn: "",
   heena: ""
 }, {
-  image: _.default,
+  image: _2.default,
   title: "",
   more: "",
   meta: "",
@@ -36646,10 +36670,14 @@ var slidesData = [{
   logo6: "",
   logo7: "",
   logo8: "",
+  logo9: "",
   email: "",
+  emaill: "",
+  location: "",
+  locationn: "",
   heena: ""
 }, {
-  image: _.default,
+  image: _2.default,
   title: "",
   more: "",
   meta: "",
@@ -36676,20 +36704,24 @@ var slidesData = [{
   aalna: "",
   molen: "",
   aladl: "",
-  aladllogo: "<img src='https://i.ibb.co/d2qz4HY/aladl.png' style='width:15%; height:15%;'>",
+  aladllogo: "<img src='https://i.ibb.co/d2qz4HY/aladl.png' style='width:100%; height:100%;'>",
   mosalaha: "",
-  mosalahalogo: "<img src='https://i.ibb.co/Rgh6QYw/Untitled-design-2.png' style='width:15%; height:15%;'>",
+  mosalahalogo: "<img src='https://i.ibb.co/Rgh6QYw/Untitled-design-2.png' style='width:100%; height:100%;'>",
   stc: "",
-  stclogo: "<img src='https://i.ibb.co/P67T2Nd/STC-01-svg.png' style='width:15%; height:15%;'>",
-  zamlia: "<img src='https://i.ibb.co/SKYjm8J/logolw.png' style='width:15%; height:15%;'>",
-  emkan: "<img src='https://i.ibb.co/TL2hfVg/e4cc8ced-97d4-4286-bb1f-30caa8fb39a8.jpg' style='width:25%; height:13%; border-radius:5px;'>",
-  logo6: "<img src='https://i.ibb.co/YZLcrz5/a56cc079-0a75-45dc-8478-230b3570ac0d.jpg' style='width:15%; height:15%; border-radius:5px;'>",
-  logo7: "<img src='https://i.ibb.co/JQkhDLX/0ead656a-b9c2-4d75-99c0-4ad102818f1b.jpg' style='width:15%; height:15%; border-radius:5px;'>",
-  logo8: "<img src='https://i.ibb.co/JqMSQWt/bfcb30c8-a75b-4fb6-944c-9f471eebd9d0.jpg' style='width:15%; height:15%; border-radius:5px;'>",
+  stclogo: "<img src='https://i.ibb.co/P67T2Nd/STC-01-svg.png' style='width:100%; height:100%;'>",
+  zamlia: "<img src='https://i.ibb.co/SKYjm8J/logolw.png' style='width:100%; height:100%;'>",
+  emkan: "<img src='https://i.ibb.co/TL2hfVg/e4cc8ced-97d4-4286-bb1f-30caa8fb39a8.jpg' style='width:100%; height:100%; border-radius:5px;'>",
+  logo6: "<img src='https://i.ibb.co/YZLcrz5/a56cc079-0a75-45dc-8478-230b3570ac0d.jpg' style='width:100%; height:100%; border-radius:5px;'>",
+  logo7: "<img src='https://i.ibb.co/JQkhDLX/0ead656a-b9c2-4d75-99c0-4ad102818f1b.jpg' style='width:100%; height:100%; border-radius:5px;'>",
+  logo8: "<img src='https://i.ibb.co/JqMSQWt/bfcb30c8-a75b-4fb6-944c-9f471eebd9d0.jpg' style='width:100%; height:100%; border-radius:5px;'>",
+  logo9: "<img src='https://i.ibb.co/v1jtfVV/image.png' style='width:100%; height:100%; border-radius:5px;'>",
   email: "",
+  emaill: "",
+  location: "",
+  locationn: "",
   heena: ""
 }, {
-  image: _.default,
+  image: _2.default,
   title: "",
   more: "",
   meta: "",
@@ -36726,7 +36758,11 @@ var slidesData = [{
   logo6: "",
   logo7: "",
   logo8: "",
+  logo9: "",
   email: " <i class='fa fa-envelope' style='color: #FFF;'></i> ",
+  emaill: "info@knowhow.sa",
+  location: "<i class='fa fa-map-marker' style='color: #FFF;'></i>",
+  locationn: "المملكة العربية السعودية، الرياض، حي الروضة، شارع خالد بن الوليد 13211",
   heena: ""
 }];
 var slides = new _Slides.Slides(slidesData);
@@ -36763,7 +36799,7 @@ window.addEventListener("resize", function () {
 window.addEventListener("mousemove", function (ev) {
   showcase.onMouseMove(ev);
 });
-},{"./Showcase":"js/Showcase.js","./Slides":"js/Slides.js","./Cursor":"js/Cursor.js","../images/a.png":"images/a.png","../images/2.png":"images/2.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./Showcase":"js/Showcase.js","./Slides":"js/Slides.js","./Cursor":"js/Cursor.js","../images/1.jpg":"images/1.jpg","../images/2.png":"images/2.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -36788,7 +36824,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63929" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55891" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

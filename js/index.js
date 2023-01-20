@@ -1,7 +1,7 @@
 import { Showcase } from "./Showcase";
 import { Slides } from "./Slides";
 import { Cursor } from "./Cursor";
-import image1 from "../images/a.png";
+import image1 from "../images/1.jpg";
 import image2 from "../images/2.png";
 import image3 from "../images/2.png";
 import image4 from "../images/2.png";
@@ -48,7 +48,11 @@ const slidesData = [
     logo6:"",
     logo7:"",
     logo8:"",
+    logo9:"",
     email:"",
+    emaill:"",
+    location:"",
+    locationn:"",
     heena:""
   },
   {
@@ -89,7 +93,11 @@ const slidesData = [
     logo6:"",
     logo7:"",
     logo8:"",
+    logo9:"",
     email:"",
+    emaill:"",
+    location:"",
+    locationn:"",
     heena:"حين تود الإنطلاق نرسم لك مسارك"
   },
   {
@@ -130,7 +138,11 @@ const slidesData = [
     logo6:"",
     logo7:"",
     logo8:"",
+    logo9:"",
     email:"",
+    emaill:"",
+    location:"",
+    locationn:"",
     heena:""
   },
   {
@@ -171,7 +183,11 @@ const slidesData = [
     logo6:"",
     logo7:"",
     logo8:"",
+    logo9:"",
     email:"",
+    emaill:"",
+    location:"",
+    locationn:"",
     heena:""
   },
   {
@@ -202,17 +218,21 @@ const slidesData = [
     aalna:"",
     molen:"",
     aladl:"",
-    aladllogo:"<img src='https://i.ibb.co/d2qz4HY/aladl.png' style='width:15%; height:15%;'>",
+    aladllogo:"<img src='https://i.ibb.co/d2qz4HY/aladl.png' style='width:100%; height:100%;'>",
     mosalaha:"",
-    mosalahalogo:"<img src='https://i.ibb.co/Rgh6QYw/Untitled-design-2.png' style='width:15%; height:15%;'>",
+    mosalahalogo:"<img src='https://i.ibb.co/Rgh6QYw/Untitled-design-2.png' style='width:100%; height:100%;'>",
     stc:"",
-    stclogo:"<img src='https://i.ibb.co/P67T2Nd/STC-01-svg.png' style='width:15%; height:15%;'>",
-    zamlia:"<img src='https://i.ibb.co/SKYjm8J/logolw.png' style='width:15%; height:15%;'>",
-    emkan:"<img src='https://i.ibb.co/TL2hfVg/e4cc8ced-97d4-4286-bb1f-30caa8fb39a8.jpg' style='width:25%; height:13%; border-radius:5px;'>",
-    logo6:"<img src='https://i.ibb.co/YZLcrz5/a56cc079-0a75-45dc-8478-230b3570ac0d.jpg' style='width:15%; height:15%; border-radius:5px;'>",
-    logo7:"<img src='https://i.ibb.co/JQkhDLX/0ead656a-b9c2-4d75-99c0-4ad102818f1b.jpg' style='width:15%; height:15%; border-radius:5px;'>",
-    logo8:"<img src='https://i.ibb.co/JqMSQWt/bfcb30c8-a75b-4fb6-944c-9f471eebd9d0.jpg' style='width:15%; height:15%; border-radius:5px;'>",
+    stclogo:"<img src='https://i.ibb.co/P67T2Nd/STC-01-svg.png' style='width:100%; height:100%;'>",
+    zamlia:"<img src='https://i.ibb.co/SKYjm8J/logolw.png' style='width:100%; height:100%;'>",
+    emkan:"<img src='https://i.ibb.co/TL2hfVg/e4cc8ced-97d4-4286-bb1f-30caa8fb39a8.jpg' style='width:100%; height:100%; border-radius:5px;'>",
+    logo6:"<img src='https://i.ibb.co/YZLcrz5/a56cc079-0a75-45dc-8478-230b3570ac0d.jpg' style='width:100%; height:100%; border-radius:5px;'>",
+    logo7:"<img src='https://i.ibb.co/JQkhDLX/0ead656a-b9c2-4d75-99c0-4ad102818f1b.jpg' style='width:100%; height:100%; border-radius:5px;'>",
+    logo8:"<img src='https://i.ibb.co/JqMSQWt/bfcb30c8-a75b-4fb6-944c-9f471eebd9d0.jpg' style='width:100%; height:100%; border-radius:5px;'>",
+    logo9:"<img src='https://i.ibb.co/v1jtfVV/image.png' style='width:100%; height:100%; border-radius:5px;'>",
     email:"",
+    emaill:"",
+    location:"",
+    locationn:"",
     heena:""
   },
   {
@@ -253,7 +273,11 @@ const slidesData = [
     logo6:"",
     logo7:"",
     logo8:"",
+    logo9:"",
     email:" <i class='fa fa-envelope' style='color: #FFF;'></i> ",
+    emaill:"info@knowhow.sa",
+    location:"<i class='fa fa-map-marker' style='color: #FFF;'></i>",
+    locationn:"المملكة العربية السعودية، الرياض، حي الروضة، شارع خالد بن الوليد 13211",
     heena:""
   }
 ];

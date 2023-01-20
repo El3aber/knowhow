@@ -49,6 +49,10 @@ class Slides {
       const logo7 = createEleWithClass("div", "slide-logo7");
       const logo8 = createEleWithClass("div", "slide-logo8");
       const email = createEleWithClass("p", "slide-email");
+      const emaill = createEleWithClass("p", "slide-emaill");
+      const location = createEleWithClass("p", "slide-location");
+      const locationn = createEleWithClass("p", "slide-locationn");
+      const logo9 = createEleWithClass("div", "slide-logo9");
     
 
 
@@ -92,6 +96,11 @@ class Slides {
       logo7.innerHTML = entry.logo7;
       logo8.innerHTML = entry.logo8;
       email.innerHTML = entry.email;
+      emaill.innerHTML = entry.emaill;
+      location.innerHTML = entry.location;
+      locationn.innerHTML = entry.locationn;
+      logo9.innerHTML = entry.logo9;
+
 
       slide.appendChild(title);
       slide.appendChild(more);
@@ -131,6 +140,10 @@ class Slides {
       slide.appendChild(logo7);
       slide.appendChild(logo8);
       slide.appendChild(email);
+      slide.appendChild(emaill);
+      slide.appendChild(location);
+      slide.appendChild(locationn);
+      slide.appendChild(logo9);
 
       
       this.container.appendChild(slide);
