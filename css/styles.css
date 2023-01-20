@@ -1,0 +1,1058 @@
+#app {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  background-image: url("../images/bg.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+canvas {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently */
+}
+/* ----------------------------------------------------------------slides-------------------------------------------------------------------------------- */
+.slides {
+  box-sizing: border-box;
+  position: absolute;
+  top: 60%;
+  padding: 0 10vw;
+  width: 100%;
+  max-width: 100%;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently */
+}
+/* ----------------------------------------------------------------slides-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-------------------------------------------------------------------------------- */
+.slide {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 33vh;
+  color: #fff;
+  transform: translateY(-50%);
+  transition: transform 1300ms cubic-bezier(0.2, 1, 0.3, 1), opacity 500ms cubic-bezier(0.2, 1, 0.3, 1);
+}
+/* ----------------------------------------------------------------slide-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-heena-------------------------------------------------------------------------------- */
+.slide-heena {
+  font-size: 3vw;
+  font-family: tajawal;
+  align-self: center;
+  position: absolute;
+  top: -50%;
+  color: #fff;
+  text-align: center;
+}
+.prev .slide-heena,
+.next .slide-heena {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .slide-heena {
+    font-size: 9vw;
+  }
+}
+/* ----------------------------------------------------------------slide-heena-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-noheetoka-------------------------------------------------------------------------------- */
+.slide-noheetoka {
+  font-size: 3vw;
+  font-family: tajawal;
+  align-self: center;
+  position: absolute;
+  top: -90%;
+  color: #fff;
+  text-align: center;
+}
+.prev .slide-noheetoka,
+.next .slide-noheetoka {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .slide-noheetoka {
+    font-size: 9vw;
+    top: -80%
+  }
+}
+/* ----------------------------------------------------------------slide-noheetoka-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-meta-------------------------------------------------------------------------------- */
+.slide-meta {
+  margin: 0;
+  font-size: 2.35rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  text-align: right;
+}
+@media only screen and (max-width: 600px) {
+  .slide-meta {
+    font-size: 6vw;
+  }
+}
+/* ----------------------------------------------------------------slide-meta-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-meta && more-------------------------------------------------------------------------------- */
+.slide-meta,
+.slide-more,
+.slide-kaddamna,
+.slide-khadamat,
+.slide-takhteet,
+.slide-sinaa,
+.slide-takhteett,
+.slide-sinaaa,
+.slide-edara,
+.slide-edaraa,
+.slide-tahseen,
+.slide-ketaba,
+.slide-arkam,
+.slide-hakakna,
+.slide-zohor,
+.slide-katabna,
+.slide-mohtawa,
+.slide-nafazna,
+.slide-antjna,
+.slide-graphic,
+.slide-maktaa,
+.slide-aalna,
+.slide-molen {
+
+  opacity: 0;
+  transition: opacity 900ms cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.show-meta .slide-meta,
+.show-meta .slide-more,
+.show-meta .slide-kaddamna,
+.show-meta .slide-khadamat,
+.show-meta .slide-takhteet,
+.show-meta .slide-sinaa,
+.show-meta .slide-takhteett,
+.show-meta .slide-sinaaa,
+.show-meta .slide-edara,
+.show-meta .slide-edaraa,
+.show-meta .slide-tahseen,
+.show-meta .slide-ketaba,
+.show-meta .slide-arkam,
+.show-meta .slide-hakakna,
+.show-meta .slide-zohor,
+.show-meta .slide-katabna,
+.show-meta .slide-mohtawa,
+.show-meta .slide-nafazna,
+.show-meta .slide-graphic,
+.show-meta .slide-antjna,
+.show-meta .slide-maktaa,
+.show-meta .slide-aalna,
+.show-meta .slide-molen {
+  opacity: 1;
+  transition: opacity 1500ms 300ms cubic-bezier(0.2, 1, 0.3, 1);
+}
+/* ----------------------------------------------------------------slide-meta && more-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-more-------------------------------------------------------------------------------- */
+.slide-more {
+  font-size: 2vw;
+  font-family: tajawal;
+}
+@media only screen and (max-width: 600px) {
+  .slide-more {
+    font-size: 5vw;
+  }
+}
+/* ----------------------------------------------------------------slide-more-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-kaddamna-------------------------------------------------------------------------------- */
+.slide-kaddamna {
+  font-size: 2vw;
+  font-family: tajawal;
+  position: absolute;
+  top:-50%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-kaddamna {
+    font-size: 5vw;
+    top: -40%;
+  }
+}
+.prev .slide-kaddamna,
+.next .slide-kaddamna {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-kaddamna-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-khadamat-------------------------------------------------------------------------------- */
+.slide-khadamat {
+  font-size: 2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top:-30%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-khadamat {
+    font-size: 4vw;
+    top: -25%;
+    text-align: right;
+  }
+}
+.prev .slide-khadamat,
+.next .slide-khadamat {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-khadamat-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-takhteet-------------------------------------------------------------------------------- */
+.slide-takhteet {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top:-10%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-takhteet {
+    font-size: 4vw;
+    top: 0%;
+    text-align: right;
+  }
+}
+.prev .slide-takhteet,
+.next .slide-takhteet {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-takhteet-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-takhteett-------------------------------------------------------------------------------- */
+.slide-takhteett {
+  font-size: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  text-align: right;
+  position: absolute;
+  top:10%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-takhteett {
+    font-size: 3vw;
+    top: 10%;
+    text-align: right;
+  }
+}
+.prev .slide-takhteett,
+.next .slide-takhteett {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-takhteett-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-sinaa-------------------------------------------------------------------------------- */
+.slide-sinaa {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top:30%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-sinaa {
+    font-size: 4vw;
+    top: 30%;
+    text-align: right;
+  }
+}
+.prev .slide-sinaa,
+.next .slide-sinaa {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-sinaa-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-sinaaa-------------------------------------------------------------------------------- */
+.slide-sinaaa {
+  font-size: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  text-align: right;
+  position: absolute;
+  top:50%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-sinaaa {
+    font-size: 3vw;
+    top: 40%;
+    text-align: right;
+  }
+}
+.prev .slide-sinaaa,
+.next .slide-sinaaa {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-sinaaa-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-edara-------------------------------------------------------------------------------- */
+.slide-edara {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top:70%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-edara {
+    font-size: 4vw;
+    top: 60%;
+    text-align: right;
+  }
+}
+.prev .slide-edara,
+.next .slide-edara {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-edara-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-edaraa-------------------------------------------------------------------------------- */
+.slide-edaraa {
+  font-size: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  text-align: right;
+  position: absolute;
+  top:90%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-edaraa {
+    font-size: 3vw;
+    top: 70%;
+    text-align: right;
+  }
+}
+.prev .slide-edaraa,
+.next .slide-edaraa {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-edaraa-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-tahseen-------------------------------------------------------------------------------- */
+.slide-tahseen {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top:110%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-tahseen {
+    font-size: 4vw;
+    top: 90%;
+    text-align: right;
+  }
+}
+.prev .slide-tahseen,
+.next .slide-tahseen {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-tahseen-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-ketaba-------------------------------------------------------------------------------- */
+.slide-ketaba {
+  font-size: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  text-align: right;
+  position: absolute;
+  top:130%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-ketaba {
+    font-size: 3vw;
+    top: 100%;
+    text-align: right;
+  }
+}
+.prev .slide-ketaba,
+.next .slide-ketaba {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-ketaba-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-arkam-------------------------------------------------------------------------------- */
+.slide-arkam {
+  font-size: 2rem;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top:-20%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-arkam {
+    font-size: 4vw;
+    top: -10%;
+    text-align: right;
+  }
+}
+.prev .slide-arkam,
+.next .slide-arkam {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-arkam-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-hakakna-------------------------------------------------------------------------------- */
+.slide-hakakna {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: 0%;
+  left: 45%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-hakakna {
+    font-size: 4vw;
+    top: 0%;
+    left: 45%;
+  }
+}
+.prev .slide-hakakna,
+.next .slide-hakakna {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-hakakna-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-zohor-------------------------------------------------------------------------------- */
+.slide-zohor {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-zohor {
+    font-size: 3vw;
+    top: 15%;
+    left: 35%;
+  }
+}
+.prev .slide-zohor,
+.next .slide-zohor {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-zohor-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-katabna-------------------------------------------------------------------------------- */
+.slide-katabna {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: 30%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-katabna {
+    font-size: 4vw;
+    top: 30%;
+    left: 45%;
+  }
+}
+.prev .slide-katabna,
+.next .slide-katabna {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-katabna-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-mohtawa-------------------------------------------------------------------------------- */
+.slide-mohtawa {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: 45%;
+  right: -4%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-mohtawa {
+    font-size: 3vw;
+    top: 45%;
+    left: 39%;
+  }
+}
+.prev .slide-mohtawa,
+.next .slide-mohtawa {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-mohtawa-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-nafazna-------------------------------------------------------------------------------- */
+.slide-nafazna {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-nafazna {
+    font-size: 4vw;
+    top: 60%;
+    left: 45%;
+  }
+}
+.prev .slide-nafazna,
+.next .slide-nafazna {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-nafazna-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-graphic-------------------------------------------------------------------------------- */
+.slide-graphic {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: 45%;
+  left: -6%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-graphic {
+    font-size: 3vw;
+    top: 75%;
+    left: 33%;
+  }
+}
+.prev .slide-graphic,
+.next .slide-graphic {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-graphic-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-antjna-------------------------------------------------------------------------------- */
+.slide-antjna {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: 80%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-antjna {
+    font-size: 4vw;
+    top: 90%;
+    left: 45%;
+  }
+}
+.prev .slide-antjna,
+.next .slide-antjna {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-antjna-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-maktaa-------------------------------------------------------------------------------- */
+.slide-maktaa {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: 95%;
+  right: -4%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-maktaa {
+    font-size: 3vw;
+    top: 105%;
+    left: 36%;
+  }
+}
+.prev .slide-maktaa,
+.next .slide-maktaa {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-maktaa-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-aalna-------------------------------------------------------------------------------- */
+.slide-aalna {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: 80%;
+  left: -2%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-aalna {
+    font-size: 4vw;
+    top: 120%;
+    left: 42%;
+  }
+}
+.prev .slide-aalna,
+.next .slide-aalna {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-aalna-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-molen-------------------------------------------------------------------------------- */
+.slide-molen {
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: 95%;
+  left: -4%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-molen {
+    font-size: 3vw;
+    top: 135%;
+    left: 37%;
+  }
+}
+.prev .slide-molen,
+.next .slide-molen {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-molen-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-aladl-------------------------------------------------------------------------------- */
+.slide-aladl {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: -15%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-aladl {
+    font-size: 5vw;
+    top: -15%;
+    right: 0%;
+  }
+}
+.prev .slide-aladl,
+.next .slide-aladl {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-aladl-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-aladllogo-------------------------------------------------------------------------------- */
+.slide-aladllogo {
+  position: absolute;
+  top: -5%;
+  right: -60%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-aladllogo {
+    top: 5%;
+    left:71%!important;
+    width: 150%;
+    height: 150%;
+  }
+}
+.prev .slide-aladllogo,
+.next .slide-aladllogo {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-aladllogo-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-mosalaha-------------------------------------------------------------------------------- */
+.slide-mosalaha {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: -15%;
+  left: 0%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-mosalaha {
+    font-size: 5vw;
+    top: -15%;
+    left: 0%;
+  }
+}
+.prev .slide-mosalaha,
+.next .slide-mosalaha {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-mosalaha-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-mosalahalogo-------------------------------------------------------------------------------- */
+.slide-mosalahalogo {
+  position: absolute;
+  top: -7%;
+  left: -3%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-mosalahalogo {
+    top: 2%;
+    left:-1%;
+    width: 190%;
+    height: 190%;
+  }
+}
+.prev .slide-mosalahalogo,
+.next .slide-mosalahalogo {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-mosalahalogo-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-stc-------------------------------------------------------------------------------- */
+.slide-stc {
+  font-size: 2rem;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: tajawal;
+  position: absolute;
+  top: 15%;
+  right: 45%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-stc {
+    font-size: 5vw;
+    top: 25%;
+    left: 45%;
+  }
+}
+.prev .slide-stc,
+.next .slide-stc {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-stc-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-stclogo-------------------------------------------------------------------------------- */
+.slide-stclogo {
+  position: absolute;
+  top: 10%;
+  width:90% ;
+  height:115% ;
+  right: -60%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-stclogo {
+    top: 10%;
+    left:37%;
+    width: 150%;
+    height: 90%;
+  }
+}
+.prev .slide-stclogo,
+.next .slide-stclogo {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-stclogo-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-zamlia-------------------------------------------------------------------------------- */
+.slide-zamlia {
+  position: absolute;
+  top: 8%;
+  width:70% ;
+  height:190% ;
+  right: -25%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-zamlia {
+    top: 35%;
+    left:73%;
+    width: 110%;
+    height: 150%;
+  }
+}
+.prev .slide-zamlia,
+.next .slide-zamlia {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-zamlia-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-emkan-------------------------------------------------------------------------------- */
+.slide-emkan {
+  position: absolute;
+  top: 8%;
+  width:70% ;
+  height:190% ;
+  right: -5%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-emkan {
+    top: 40%;
+    left:35%;
+    width: 110%;
+    height: 90%;
+  }
+}
+.prev .slide-emkan,
+.next .slide-emkan {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-emkan-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo6-------------------------------------------------------------------------------- */
+.slide-logo6 {
+  position: absolute;
+  top: 8%;
+  width:70% ;
+  height:190% ;
+  right: 13%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo6 {
+    top: 40%;
+    left:5%;
+    width: 110%;
+    height: 90%;
+  }
+}
+.prev .slide-logo6,
+.next .slide-logo6 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo6-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo7-------------------------------------------------------------------------------- */
+.slide-logo7 {
+  position: absolute;
+  top: 50%;
+  right: -32%;
+  width:40% ;
+  height:210% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo7 {
+    top: 70%;
+    left:75%!important;
+    width: 90%;
+    height: 150%;
+  }
+}
+.prev .slide-logo7,
+.next .slide-logo7 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo7-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo8-------------------------------------------------------------------------------- */
+.slide-logo8 {
+  position: absolute;
+  top: 55%;
+  right: -70%;
+  width:100% ;
+  height:150% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo8 {
+    top: 70%;
+    left:36%!important;
+    width: 150%;
+    height: 150%;
+  }
+}
+.prev .slide-logo8,
+.next .slide-logo8 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo8-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-email-------------------------------------------------------------------------------- */
+.slide-email {
+  font-size: 2vw;
+  font-family: tajawal;
+  position: absolute;
+  top:-25%;
+  right: 25%;
+  font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .slide-email {
+    font-size: 5vw;
+    top: -25%;
+    right: 45%;
+    font-size: 25px !important;
+  }
+}
+.prev .slide-email,
+.next .slide-email {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-email-------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------slide-title-------------------------------------------------------------------------------- */
+.slide-title {
+  font-size: 5vw;
+  margin: 0;
+  color: #fafafa;
+  position: absolute;
+  text-indent: -0.5vw;
+  font-family: tajawal;
+  left: 10%;
+  font-weight: 700;
+  transition: color 500ms cubic-bezier(0.2, 1, 0.3, 1);
+  
+}
+@media only screen and (max-width: 600px) {
+  .slide-title {
+    position: absolute;
+    top: 20%;
+    text-align: right;
+    font-size: 9vw;
+  }
+}
+
+.prev .slide-title,
+.next .slide-title {
+
+}
+
+/* ----------------------------------------------------------------slide-title-------------------------------------------------------------------------------- */
+
+.prev,
+.next {
+  opacity: 0;
+}
+
+.prev {
+  transform: translateY(-85%);
+}
+
+.next {
+  transform: translateY(-15%);
+}
+
+.scrolling>.slide {
+  transform: translateY(-50%);
+  opacity: 1;
+}
+

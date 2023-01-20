@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Know How</title>
+  <meta name="description" content="A recreation of the sticky image effect seen on the websites of MakeReign and Ultranoir using three.js.">
+  <meta name="keywords" content="three.js, sticky, animation, webgl, javascript, scroll, drag">
+  <meta name="author" content="Codrops">
+  <link rel="shortcut icon" href="/favicon.26242483.ico">
+  <link rel="stylesheet" href="https://use.typekit.net/ncw8xrb.css">
+  <link rel="stylesheet" type="text/css" href="/base.98fd6c19.css">
+  <link rel="stylesheet" type="text/css" href="/styles.b61e60ae.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <script>document.documentElement.className = "js";
+var supportsCssVars = function supportsCssVars() {
+  var e,
+    t = document.createElement("style");
+  return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+};
+supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+  <!--script src="//tympanus.net/codrops/adpacks/analytics.js"></script> -->
+<script src="/base.98fd6c19.js"></script><script src="/styles.b61e60ae.js"></script></head>
+
+<body">
+  <main>
+    <div class="frame">
+      <div class="frame__title-wrap">
+        <img src="/logo.6023b87e.png" style="top: 5%; left: 5%; width: 50px; height: 50px;">
+      </div>
+      <div class="frame__links">
+        <a href="https://twitter.com/Knowhow_sa?t=jDAur-fZtItapEogDKkG0g&s=09"><i class="fa fa-twitter" style="font-size:20px; color: #1DA1F2;"></i></a>
+        <a href="https://instagram.com/knowhow_sa?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram" style="font-size:20px; color: #C13584;"></i></a>
+        <a href="https://www.linkedin.com/in/الخبرة-الفنية-9bba371b1"><i class="fa fa-linkedin" style="font-size:20px; color: #0077b5;"></i></a>
+        <a href="https://youtube.com/@user-sd3xx9pz1k"><i class="fa fa-youtube-play" style="font-size:20px; color: #FF0000;"></i></a>
+      </div>
+      <div class="frame__tip">
+      <p class="frame__tip" style="font-family: tajawal; color: aliceblue;">&nbsp; &nbsp; إسحب الشاشة</p>
+        <div class="arrow-container">
+            <div class="arrow-down"></div>
+        </div>
+        </div>
+    </div>
+    <div class="content" id="app">
+      <!-- the content -->
+    </div>
+  </main>
+  <div class="cursor">
+    <div class="cursor__inner cursor__inner--circle"></div>
+    <div class="cursor__inner cursor__inner--dot"></div>
+  </div>
+  <script src="/js.00a46daa.js"></script>
+
+
+<style>.arrow-container {
+  width: 25px;
+  /* cubic-bezier-easing = sine / mehr Beispiele: https://easings.net/ */
+  animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  cursor: pointer;
+  height: 20px;
+}
+
+.arrow-down {
+  height: 4px;
+  width: 13px;
+  background: white;
+  transform: rotate(225deg);
+  transform-origin: 0% 0%;
+  border-radius: 5px;
+}
+.arrow-down:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 100%;
+  border-radius: 5px;
+  background: white;
+  transform: rotate(-90deg);
+  transform-origin: 0% 100%;
+}
+
+@keyframes bounce {
+50% {
+    transform: translateY(-15px);
+  }
+}</style>
+
+
+</body"></html>
