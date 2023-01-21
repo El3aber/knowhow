@@ -57,6 +57,16 @@ class Slides {
       const logo11 = createEleWithClass("div", "slide-logo11");
       const logo12 = createEleWithClass("div", "slide-logo12");
       const logo13 = createEleWithClass("div", "slide-logo13");
+      const logo14 = createEleWithClass("div", "slide-logo14");
+      const logo15 = createEleWithClass("div", "slide-logo15");
+      const logo16 = createEleWithClass("div", "slide-logo16");
+      const logo17 = createEleWithClass("div", "slide-logo17");
+      const logo18 = createEleWithClass("div", "slide-logo18");
+      const logo19 = createEleWithClass("div", "slide-logo19");
+      const logo20 = createEleWithClass("div", "slide-logo20");
+      const logo21 = createEleWithClass("div", "slide-logo21");
+      const logo22 = createEleWithClass("div", "slide-logo22");
+      const logo23 = createEleWithClass("div", "slide-logo23");
     
 
 
@@ -108,6 +118,16 @@ class Slides {
       logo11.innerHTML = entry.logo11;
       logo12.innerHTML = entry.logo12;
       logo13.innerHTML = entry.logo13;
+      logo14.innerHTML = entry.logo14;
+      logo15.innerHTML = entry.logo15;
+      logo16.innerHTML = entry.logo16;
+      logo17.innerHTML = entry.logo17;
+      logo18.innerHTML = entry.logo18;
+      logo19.innerHTML = entry.logo19;
+      logo20.innerHTML = entry.logo20;
+      logo21.innerHTML = entry.logo21;
+      logo22.innerHTML = entry.logo22;
+      logo23.innerHTML = entry.logo23;
 
 
       slide.appendChild(title);
@@ -156,6 +176,16 @@ class Slides {
       slide.appendChild(logo11);
       slide.appendChild(logo12);
       slide.appendChild(logo13);
+      slide.appendChild(logo14);
+      slide.appendChild(logo15);
+      slide.appendChild(logo16);
+      slide.appendChild(logo17);
+      slide.appendChild(logo18);
+      slide.appendChild(logo19);
+      slide.appendChild(logo20);
+      slide.appendChild(logo21);
+      slide.appendChild(logo22);
+      slide.appendChild(logo23);
 
       
       this.container.appendChild(slide);

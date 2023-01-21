@@ -769,7 +769,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-aladllogo {
-    top: 0%;
+    top: -10%;
     right: 0%;
     width: 18%;
     height: 20%;
@@ -817,7 +817,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-mosalahalogo {
-    top: 0%;
+    top: -10%;
     left:0%;
     width: 18%;
     height: 20%;
@@ -865,7 +865,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-stclogo {
-    top: 0%;
+    top: -10%;
     right:27%;
     width: 18%;
     height: 20%;
@@ -887,7 +887,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-zamlia {
-    top: 0%;
+    top: -10%;
     right:55%;
     width: 18%;
     height: 20%;
@@ -909,7 +909,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-emkan {
-    top: 30%;
+    top: 15%;
     right:0%;
     width: 18%;
     height: 20%;
@@ -931,7 +931,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-logo6 {
-    top: 30%;
+    top: 15%;
     right:27%;
     width: 18%;
     height: 20%;
@@ -953,7 +953,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-logo7 {
-    top: 30%;
+    top: 15%;
     right:55%;
     width: 18%;
     height: 20%;
@@ -975,7 +975,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-logo8 {
-    top: 30%;
+    top: 15%;
     left:0%;
     width: 18%;
     height: 20%;
@@ -997,7 +997,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-logo9 {
-    top: 60%;
+    top: 40%;
     right:0%;
     width: 18%;
     height: 20%;
@@ -1019,7 +1019,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-logo10 {
-    top: 60%;
+    top: 40%;
     right:27%;
     width: 18%;
     height: 20%;
@@ -1041,7 +1041,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-logo11 {
-    top: 60%;
+    top: 40%;
     right:55%;
     width: 18%;
     height: 20%;
@@ -1063,7 +1063,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-logo12 {
-    top: 60%;
+    top: 40%;
     left:0%;
     width: 18%;
     height: 20%;
@@ -1085,7 +1085,7 @@ canvas {
 }
 @media only screen and (max-width: 600px) {
   .slide-logo13 {
-    top: 90%;
+    top: 65%;
     right:0%;
     width: 18%;
     height: 20%;
@@ -1096,6 +1096,226 @@ canvas {
   display: none;
 }
 /* ----------------------------------------------------------------slide-logo13-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo14-------------------------------------------------------------------------------- */
+.slide-logo14 {
+  position: absolute;
+  top: 48%;
+  right: 65%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo14 {
+    top: 65%;
+    right:27%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo14,
+.next .slide-logo14 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo14-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo15-------------------------------------------------------------------------------- */
+.slide-logo15 {
+  position: absolute;
+  top: 48%;
+  right: 78%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo15 {
+    top: 65%;
+    right:55%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo15,
+.next .slide-logo15 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo15-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo16-------------------------------------------------------------------------------- */
+.slide-logo16 {
+  position: absolute;
+  top: 48%;
+  right: 91%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo16 {
+    top: 65%;
+    left:0%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo16,
+.next .slide-logo16 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo16-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo17-------------------------------------------------------------------------------- */
+.slide-logo17 {
+  position: absolute;
+  top: 101%;
+  right: 0%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo17 {
+    top: 90%;
+    right:0%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo17,
+.next .slide-logo17 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo17-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo18-------------------------------------------------------------------------------- */
+.slide-logo18 {
+  position: absolute;
+  top: 101%;
+  right: 13%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo18 {
+    top: 90%;
+    right:27%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo18,
+.next .slide-logo18 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo18-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo19-------------------------------------------------------------------------------- */
+.slide-logo19 {
+  position: absolute;
+  top: 101%;
+  right: 26%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo19 {
+    top: 90%;
+    right:55%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo19,
+.next .slide-logo19 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo19-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo20-------------------------------------------------------------------------------- */
+.slide-logo20 {
+  position: absolute;
+  top: 101%;
+  right: 39%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo20 {
+    top: 90%;
+    left: 0%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo20,
+.next .slide-logo20 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo20-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo21-------------------------------------------------------------------------------- */
+.slide-logo21 {
+  position: absolute;
+  top: 101%;
+  right: 52%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo21 {
+    top: 115%;
+    right: 0%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo21,
+.next .slide-logo21 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo21-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo22-------------------------------------------------------------------------------- */
+.slide-logo22 {
+  position: absolute;
+  top: 101%;
+  right: 65%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo22 {
+    top: 115%;
+    right: 27%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo22,
+.next .slide-logo22 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo22-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo23-------------------------------------------------------------------------------- */
+.slide-logo23 {
+  position: absolute;
+  top: 101%;
+  right: 78%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo23 {
+    top: 115%;
+    right: 55%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo23,
+.next .slide-logo23 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo23-------------------------------------------------------------------------------- */
 
 
 /* ----------------------------------------------------------------slide-email-------------------------------------------------------------------------------- */

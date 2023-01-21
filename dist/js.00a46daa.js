@@ -36234,6 +36234,16 @@ var Slides = /*#__PURE__*/function () {
       var logo11 = createEleWithClass("div", "slide-logo11");
       var logo12 = createEleWithClass("div", "slide-logo12");
       var logo13 = createEleWithClass("div", "slide-logo13");
+      var logo14 = createEleWithClass("div", "slide-logo14");
+      var logo15 = createEleWithClass("div", "slide-logo15");
+      var logo16 = createEleWithClass("div", "slide-logo16");
+      var logo17 = createEleWithClass("div", "slide-logo17");
+      var logo18 = createEleWithClass("div", "slide-logo18");
+      var logo19 = createEleWithClass("div", "slide-logo19");
+      var logo20 = createEleWithClass("div", "slide-logo20");
+      var logo21 = createEleWithClass("div", "slide-logo21");
+      var logo22 = createEleWithClass("div", "slide-logo22");
+      var logo23 = createEleWithClass("div", "slide-logo23");
       more.href = "#";
       slide.classList.add(index !== 0 ? "next" : "show-meta");
       meta.innerHTML = entry.meta;
@@ -36282,6 +36292,16 @@ var Slides = /*#__PURE__*/function () {
       logo11.innerHTML = entry.logo11;
       logo12.innerHTML = entry.logo12;
       logo13.innerHTML = entry.logo13;
+      logo14.innerHTML = entry.logo14;
+      logo15.innerHTML = entry.logo15;
+      logo16.innerHTML = entry.logo16;
+      logo17.innerHTML = entry.logo17;
+      logo18.innerHTML = entry.logo18;
+      logo19.innerHTML = entry.logo19;
+      logo20.innerHTML = entry.logo20;
+      logo21.innerHTML = entry.logo21;
+      logo22.innerHTML = entry.logo22;
+      logo23.innerHTML = entry.logo23;
       slide.appendChild(title);
       slide.appendChild(more);
       slide.appendChild(heena);
@@ -36328,6 +36348,16 @@ var Slides = /*#__PURE__*/function () {
       slide.appendChild(logo11);
       slide.appendChild(logo12);
       slide.appendChild(logo13);
+      slide.appendChild(logo14);
+      slide.appendChild(logo15);
+      slide.appendChild(logo16);
+      slide.appendChild(logo17);
+      slide.appendChild(logo18);
+      slide.appendChild(logo19);
+      slide.appendChild(logo20);
+      slide.appendChild(logo21);
+      slide.appendChild(logo22);
+      slide.appendChild(logo23);
       _this.container.appendChild(slide);
       return slide;
     });
@@ -36555,6 +36585,16 @@ var slidesData = [{
   logo11: "",
   logo12: "",
   logo13: "",
+  logo14: "",
+  logo15: "",
+  logo16: "",
+  logo17: "",
+  logo18: "",
+  logo19: "",
+  logo20: "",
+  logo21: "",
+  logo22: "",
+  logo23: "",
   email: "",
   emaill: "",
   location: "",
@@ -36603,6 +36643,16 @@ var slidesData = [{
   logo11: "",
   logo12: "",
   logo13: "",
+  logo14: "",
+  logo15: "",
+  logo16: "",
+  logo17: "",
+  logo18: "",
+  logo19: "",
+  logo20: "",
+  logo21: "",
+  logo22: "",
+  logo23: "",
   email: "",
   emaill: "",
   location: "",
@@ -36651,6 +36701,16 @@ var slidesData = [{
   logo11: "",
   logo12: "",
   logo13: "",
+  logo14: "",
+  logo15: "",
+  logo16: "",
+  logo17: "",
+  logo18: "",
+  logo19: "",
+  logo20: "",
+  logo21: "",
+  logo22: "",
+  logo23: "",
   email: "",
   emaill: "",
   location: "",
@@ -36699,6 +36759,16 @@ var slidesData = [{
   logo11: "",
   logo12: "",
   logo13: "",
+  logo14: "",
+  logo15: "",
+  logo16: "",
+  logo17: "",
+  logo18: "",
+  logo19: "",
+  logo20: "",
+  logo21: "",
+  logo22: "",
+  logo23: "",
   email: "",
   emaill: "",
   location: "",
@@ -36747,6 +36817,16 @@ var slidesData = [{
   logo11: "<img src='https://i.ibb.co/Pw6R8jk/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
   logo12: "<img src='https://i.ibb.co/c34rVkW/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
   logo13: "<img src='https://i.ibb.co/Hp3YYXg/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo14: "<img src='https://i.ibb.co/kDQN7sm/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo15: "<img src='https://i.ibb.co/KDxcG5w/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo16: "<img src='https://i.ibb.co/VmpQmW0/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo17: "<img src='https://i.ibb.co/HFys9Ss/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo18: "<img src='https://i.ibb.co/YkcTNFt/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo19: "<img src='https://i.ibb.co/fYk2Gwf/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo20: "<img src='https://i.ibb.co/fHm9LZb/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo21: "<img src='https://i.ibb.co/VQ2KWB9/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo22: "<img src='https://i.ibb.co/VLK4ppJ/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo23: "<img src='https://i.ibb.co/xgg87RQ/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
   email: "",
   emaill: "",
   location: "",
@@ -36795,6 +36875,16 @@ var slidesData = [{
   logo11: "",
   logo12: "",
   logo13: "",
+  logo14: "",
+  logo15: "",
+  logo16: "",
+  logo17: "",
+  logo18: "",
+  logo19: "",
+  logo20: "",
+  logo21: "",
+  logo22: "",
+  logo23: "",
   email: " <i class='fa fa-envelope' style='color: #FFF;'></i> ",
   emaill: "info@knowhow.sa",
   location: "<i class='fa fa-map-marker' style='color: #FFF;'></i>",
@@ -36860,7 +36950,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51659" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55630" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
