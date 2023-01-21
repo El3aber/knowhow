@@ -71,7 +71,7 @@ canvas {
   font-family: tajawal;
   align-self: center;
   position: absolute;
-  top: -50%;
+  top: -70%;
   color: #fff;
   text-align: center;
 }
@@ -84,6 +84,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-heena {
     font-size: 9vw;
+    top: -90%;
   }
 }
 /* ----------------------------------------------------------------slide-heena-------------------------------------------------------------------------------- */
@@ -107,23 +108,25 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-noheetoka {
     font-size: 9vw;
-    top: -80%
+    top: -100%
   }
 }
 /* ----------------------------------------------------------------slide-noheetoka-------------------------------------------------------------------------------- */
 
 /* ----------------------------------------------------------------slide-meta-------------------------------------------------------------------------------- */
 .slide-meta {
-  margin: 0;
-  font-size: 2.35rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 2.65rem;
   font-family: tajawal;
   text-align: right;
+  position: absolute;
+  top: 10%;
+  right: 3%;
 }
 @media only screen and (max-width: 600px) {
   .slide-meta {
-    font-size: 6vw;
+    font-size: 6.2vw;
+    top: -20%;
+    right: 5%;
   }
 }
 /* ----------------------------------------------------------------slide-meta-------------------------------------------------------------------------------- */
@@ -197,10 +200,13 @@ canvas {
 .slide-more {
   font-size: 2vw;
   font-family: tajawal;
+  position: absolute;
+  top: -30%;
 }
 @media only screen and (max-width: 600px) {
   .slide-more {
     font-size: 5vw;
+    top: -40%;
   }
 }
 /* ----------------------------------------------------------------slide-more-------------------------------------------------------------------------------- */
