@@ -95,7 +95,7 @@ canvas {
   font-family: tajawal;
   align-self: center;
   position: absolute;
-  top: -90%;
+  top: -110%;
   color: #fff;
   text-align: center;
 }
@@ -216,12 +216,12 @@ canvas {
   font-size: 2vw;
   font-family: tajawal;
   position: absolute;
-  top:-50%;
+  top:-70%;
 }
 @media only screen and (max-width: 600px) {
   .slide-kaddamna {
     font-size: 5vw;
-    top: -40%;
+    top: -50%;
   }
 }
 .prev .slide-kaddamna,
@@ -239,12 +239,12 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top:-30%;
+  top:-40%;
 }
 @media only screen and (max-width: 600px) {
   .slide-khadamat {
     font-size: 4vw;
-    top: -25%;
+    top: -35%;
     text-align: right;
   }
 }
@@ -264,12 +264,12 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top:-10%;
+  top:-20%;
 }
 @media only screen and (max-width: 600px) {
   .slide-takhteet {
     font-size: 4vw;
-    top: 0%;
+    top: -10%;
     text-align: right;
   }
 }
@@ -289,12 +289,12 @@ canvas {
   font-family: tajawal;
   text-align: right;
   position: absolute;
-  top:10%;
+  top:0%;
 }
 @media only screen and (max-width: 600px) {
   .slide-takhteett {
     font-size: 3vw;
-    top: 10%;
+    top: 0%;
     text-align: right;
   }
 }
@@ -314,12 +314,12 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top:30%;
+  top:20%;
 }
 @media only screen and (max-width: 600px) {
   .slide-sinaa {
     font-size: 4vw;
-    top: 30%;
+    top: 20%;
     text-align: right;
   }
 }
@@ -339,12 +339,12 @@ canvas {
   font-family: tajawal;
   text-align: right;
   position: absolute;
-  top:50%;
+  top:40%;
 }
 @media only screen and (max-width: 600px) {
   .slide-sinaaa {
     font-size: 3vw;
-    top: 40%;
+    top: 30%;
     text-align: right;
   }
 }
@@ -364,12 +364,12 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top:70%;
+  top:60%;
 }
 @media only screen and (max-width: 600px) {
   .slide-edara {
     font-size: 4vw;
-    top: 60%;
+    top: 50%;
     text-align: right;
   }
 }
@@ -389,12 +389,12 @@ canvas {
   font-family: tajawal;
   text-align: right;
   position: absolute;
-  top:90%;
+  top:80%;
 }
 @media only screen and (max-width: 600px) {
   .slide-edaraa {
     font-size: 3vw;
-    top: 70%;
+    top: 60%;
     text-align: right;
   }
 }
@@ -414,12 +414,12 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top:110%;
+  top:100%;
 }
 @media only screen and (max-width: 600px) {
   .slide-tahseen {
     font-size: 4vw;
-    top: 90%;
+    top: 80%;
     text-align: right;
   }
 }
@@ -439,12 +439,12 @@ canvas {
   font-family: tajawal;
   text-align: right;
   position: absolute;
-  top:130%;
+  top:120%;
 }
 @media only screen and (max-width: 600px) {
   .slide-ketaba {
     font-size: 3vw;
-    top: 100%;
+    top: 90%;
     text-align: right;
   }
 }
@@ -469,7 +469,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-arkam {
     font-size: 4vw;
-    top: -18%;
+    top: -35%;
     text-align: right;
   }
 }
@@ -495,7 +495,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-hakakna {
     font-size: 5vw;
-    top: -5%;
+    top: -20%;
     left: 45%;
   }
 }
@@ -521,7 +521,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-zohor {
     font-size: 6vw;
-    top: 5%;
+    top: -10%;
     left: 20%;
   }
 }
@@ -546,7 +546,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-katabna {
     font-size: 5vw;
-    top: 25%;
+    top: 10%;
     left: 45%;
   }
 }
@@ -572,7 +572,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-mohtawa {
     font-size: 6vw;
-    top: 35%;
+    top: 20%;
     left: 28%;
   }
 }
@@ -598,7 +598,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-nafazna {
     font-size: 5vw;
-    top: 55%;
+    top: 40%;
     left: 45%;
   }
 }
@@ -624,7 +624,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-graphic {
     font-size: 6vw;
-    top: 65%;
+    top: 50%;
     left: 15%;
   }
 }
@@ -649,7 +649,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-antjna {
     font-size: 5vw;
-    top: 85%;
+    top: 70%;
     left: 45%;
   }
 }
@@ -675,7 +675,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-maktaa {
     font-size: 6vw;
-    top: 95%;
+    top: 80%;
     left: 20%;
   }
 }
@@ -701,7 +701,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-aalna {
     font-size: 5vw;
-    top: 115%;
+    top: 100%;
     left: 42%;
   }
 }
@@ -727,7 +727,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-molen {
     font-size: 6vw;
-    top: 125%;
+    top: 110%;
     left: 25%;
   }
 }
