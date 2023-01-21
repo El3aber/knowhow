@@ -36244,6 +36244,7 @@ var Slides = /*#__PURE__*/function () {
       var logo21 = createEleWithClass("div", "slide-logo21");
       var logo22 = createEleWithClass("div", "slide-logo22");
       var logo23 = createEleWithClass("div", "slide-logo23");
+      var logo24 = createEleWithClass("div", "slide-logo24");
       more.href = "#";
       slide.classList.add(index !== 0 ? "next" : "show-meta");
       meta.innerHTML = entry.meta;
@@ -36302,6 +36303,7 @@ var Slides = /*#__PURE__*/function () {
       logo21.innerHTML = entry.logo21;
       logo22.innerHTML = entry.logo22;
       logo23.innerHTML = entry.logo23;
+      logo24.innerHTML = entry.logo24;
       slide.appendChild(title);
       slide.appendChild(more);
       slide.appendChild(heena);
@@ -36358,6 +36360,7 @@ var Slides = /*#__PURE__*/function () {
       slide.appendChild(logo21);
       slide.appendChild(logo22);
       slide.appendChild(logo23);
+      slide.appendChild(logo24);
       _this.container.appendChild(slide);
       return slide;
     });
@@ -36595,6 +36598,7 @@ var slidesData = [{
   logo21: "",
   logo22: "",
   logo23: "",
+  logo24: "",
   email: "",
   emaill: "",
   location: "",
@@ -36653,6 +36657,7 @@ var slidesData = [{
   logo21: "",
   logo22: "",
   logo23: "",
+  logo24: "",
   email: "",
   emaill: "",
   location: "",
@@ -36711,6 +36716,7 @@ var slidesData = [{
   logo21: "",
   logo22: "",
   logo23: "",
+  logo24: "",
   email: "",
   emaill: "",
   location: "",
@@ -36769,6 +36775,7 @@ var slidesData = [{
   logo21: "",
   logo22: "",
   logo23: "",
+  logo24: "",
   email: "",
   emaill: "",
   location: "",
@@ -36827,6 +36834,7 @@ var slidesData = [{
   logo21: "<img src='https://i.ibb.co/VQ2KWB9/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
   logo22: "<img src='https://i.ibb.co/VLK4ppJ/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
   logo23: "<img src='https://i.ibb.co/xgg87RQ/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo24: "<img src='https://i.ibb.co/YdBK28G/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
   email: "",
   emaill: "",
   location: "",
@@ -36885,6 +36893,7 @@ var slidesData = [{
   logo21: "",
   logo22: "",
   logo23: "",
+  logo24: "",
   email: " <i class='fa fa-envelope' style='color: #FFF;'></i> ",
   emaill: "info@knowhow.sa",
   location: "<i class='fa fa-map-marker' style='color: #FFF;'></i>",
@@ -36950,7 +36959,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55630" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60412" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
