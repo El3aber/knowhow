@@ -771,8 +771,8 @@ canvas {
   .slide-aladllogo {
     top: 0%;
     right: 0%;
-    width: 20%;
-    height: 23%;
+    width: 18%;
+    height: 20%;
   }
 }
 .prev .slide-aladllogo,
@@ -810,17 +810,17 @@ canvas {
 /* ----------------------------------------------------------------slide-mosalahalogo-------------------------------------------------------------------------------- */
 .slide-mosalahalogo {
   position: absolute;
-  top: -7%;
-  left: -3%;
-  width: 12%;
-  height: 50%;
+  top: -5%;
+  right: 78%;
+  width: 10%;
+  height: 40%;
 }
 @media only screen and (max-width: 600px) {
   .slide-mosalahalogo {
-    top: -1%;
+    top: 0%;
     left:0%;
-    width: 22%;
-    height: 27%;
+    width: 18%;
+    height: 20%;
   }
 }
 .prev .slide-mosalahalogo,
@@ -858,17 +858,17 @@ canvas {
 /* ----------------------------------------------------------------slide-stclogo-------------------------------------------------------------------------------- */
 .slide-stclogo {
   position: absolute;
-  top: 9%;
-  width: 12%;
-  height: 17%;
-  right: 16%;
+  top: -5%;
+  width: 10%;
+  height: 40%;
+  right: 13%;
 }
 @media only screen and (max-width: 600px) {
   .slide-stclogo {
-    top: 8%;
-    right:29%;
-    width: 13%;
-    height: 10%;
+    top: 0%;
+    right:27%;
+    width: 18%;
+    height: 20%;
   }
 }
 .prev .slide-stclogo,
@@ -880,16 +880,16 @@ canvas {
 /* ----------------------------------------------------------------slide-zamlia-------------------------------------------------------------------------------- */
 .slide-zamlia {
   position: absolute;
-  top: 0%;
+  top: -5%;
   width:10% ;
   height:40% ;
-  right: 32%;
+  right: 26%;
 }
 @media only screen and (max-width: 600px) {
   .slide-zamlia {
-    top: 3%;
-    left:30%;
-    width: 13%;
+    top: 0%;
+    right:55%;
+    width: 18%;
     height: 20%;
   }
 }
@@ -902,17 +902,17 @@ canvas {
 /* ----------------------------------------------------------------slide-emkan-------------------------------------------------------------------------------- */
 .slide-emkan {
   position: absolute;
-  top: 10%;
+  top: -5%;
   width:10% ;
-  height:20% ;
-  right: 47%;
+  height:40% ;
+  right: 39%;
 }
 @media only screen and (max-width: 600px) {
   .slide-emkan {
-    top: 34%;
+    top: 30%;
     right:0%;
-    width: 20%;
-    height: 10%;
+    width: 18%;
+    height: 20%;
   }
 }
 .prev .slide-emkan,
@@ -924,17 +924,17 @@ canvas {
 /* ----------------------------------------------------------------slide-logo6-------------------------------------------------------------------------------- */
 .slide-logo6 {
   position: absolute;
-  top: 8%;
-  width:8% ;
-  height:25% ;
-  right: 65%;
+  top: -5%;
+  width:10% ;
+  height:40% ;
+  right: 52%;
 }
 @media only screen and (max-width: 600px) {
   .slide-logo6 {
-    top: 32%;
+    top: 30%;
     right:27%;
-    width: 15%;
-    height: 15%;
+    width: 18%;
+    height: 20%;
   }
 }
 .prev .slide-logo6,
@@ -946,16 +946,16 @@ canvas {
 /* ----------------------------------------------------------------slide-logo7-------------------------------------------------------------------------------- */
 .slide-logo7 {
   position: absolute;
-  top: 3%;
-  right: 80%;
-  width:6% ;
-  height:35% ;
+  top: -5%;
+  right: 65%;
+  width:10% ;
+  height:40% ;
 }
 @media only screen and (max-width: 600px) {
   .slide-logo7 {
-    top: 29%;
-    left:3%;
-    width: 10%;
+    top: 30%;
+    right:55%;
+    width: 18%;
     height: 20%;
   }
 }
@@ -968,17 +968,17 @@ canvas {
 /* ----------------------------------------------------------------slide-logo8-------------------------------------------------------------------------------- */
 .slide-logo8 {
   position: absolute;
-  top: 55%;
-  right: 1%;
-  width:8% ;
-  height:18% ;
+  top: -5%;
+  right: 91%;
+  width:10% ;
+  height:40% ;
 }
 @media only screen and (max-width: 600px) {
   .slide-logo8 {
-    top: 33%;
-    left:27%;
+    top: 30%;
+    left:0%;
     width: 18%;
-    height: 13%;
+    height: 20%;
   }
 }
 .prev .slide-logo8,
@@ -990,17 +990,17 @@ canvas {
 /* ----------------------------------------------------------------slide-logo9-------------------------------------------------------------------------------- */
 .slide-logo9 {
   position: absolute;
-  top: 55%;
-  right: 16%;
+  top: 48%;
+  right: 0%;
   width:10% ;
-  height:18% ;
+  height:40% ;
 }
 @media only screen and (max-width: 600px) {
   .slide-logo9 {
-    top: 57%;
+    top: 60%;
     right:0%;
     width: 18%;
-    height: 13%;
+    height: 20%;
   }
 }
 .prev .slide-logo9,
@@ -1009,20 +1009,20 @@ canvas {
 }
 /* ----------------------------------------------------------------slide-logo9-------------------------------------------------------------------------------- */
 
-/* ----------------------------------------------------------------slide-logo910-------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------slide-logo10-------------------------------------------------------------------------------- */
 .slide-logo10 {
   position: absolute;
-  top: 52%;
-  right: 32%;
-  width:8% ;
-  height:24% ;
+  top: 48%;
+  right: 13%;
+  width:10% ;
+  height:40% ;
 }
 @media only screen and (max-width: 600px) {
   .slide-logo10 {
-    top: 56%;
-    right:26%;
-    width: 16%;
-    height: 16%;
+    top: 60%;
+    right:27%;
+    width: 18%;
+    height: 20%;
   }
 }
 .prev .slide-logo10,
@@ -1030,6 +1030,72 @@ canvas {
   display: none;
 }
 /* ----------------------------------------------------------------slide-logo10-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo11-------------------------------------------------------------------------------- */
+.slide-logo11 {
+  position: absolute;
+  top: 48%;
+  right: 26%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo11 {
+    top: 60%;
+    right:55%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo11,
+.next .slide-logo11 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo11-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo12-------------------------------------------------------------------------------- */
+.slide-logo12 {
+  position: absolute;
+  top: 48%;
+  right: 39%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo12 {
+    top: 60%;
+    left:0%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo12,
+.next .slide-logo12 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo12-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-logo13-------------------------------------------------------------------------------- */
+.slide-logo13 {
+  position: absolute;
+  top: 48%;
+  right: 52%;
+  width:10% ;
+  height:40% ;
+}
+@media only screen and (max-width: 600px) {
+  .slide-logo13 {
+    top: 90%;
+    right:0%;
+    width: 18%;
+    height: 20%;
+  }
+}
+.prev .slide-logo13,
+.next .slide-logo13 {
+  display: none;
+}
+/* ----------------------------------------------------------------slide-logo13-------------------------------------------------------------------------------- */
 
 
 /* ----------------------------------------------------------------slide-email-------------------------------------------------------------------------------- */

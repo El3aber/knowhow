@@ -36231,6 +36231,9 @@ var Slides = /*#__PURE__*/function () {
       var locationn = createEleWithClass("p", "slide-locationn");
       var logo9 = createEleWithClass("div", "slide-logo9");
       var logo10 = createEleWithClass("div", "slide-logo10");
+      var logo11 = createEleWithClass("div", "slide-logo11");
+      var logo12 = createEleWithClass("div", "slide-logo12");
+      var logo13 = createEleWithClass("div", "slide-logo13");
       more.href = "#";
       slide.classList.add(index !== 0 ? "next" : "show-meta");
       meta.innerHTML = entry.meta;
@@ -36276,6 +36279,9 @@ var Slides = /*#__PURE__*/function () {
       locationn.innerHTML = entry.locationn;
       logo9.innerHTML = entry.logo9;
       logo10.innerHTML = entry.logo10;
+      logo11.innerHTML = entry.logo11;
+      logo12.innerHTML = entry.logo12;
+      logo13.innerHTML = entry.logo13;
       slide.appendChild(title);
       slide.appendChild(more);
       slide.appendChild(heena);
@@ -36319,6 +36325,9 @@ var Slides = /*#__PURE__*/function () {
       slide.appendChild(locationn);
       slide.appendChild(logo9);
       slide.appendChild(logo10);
+      slide.appendChild(logo11);
+      slide.appendChild(logo12);
+      slide.appendChild(logo13);
       _this.container.appendChild(slide);
       return slide;
     });
@@ -36543,6 +36552,9 @@ var slidesData = [{
   logo8: "",
   logo9: "",
   logo10: "",
+  logo11: "",
+  logo12: "",
+  logo13: "",
   email: "",
   emaill: "",
   location: "",
@@ -36588,6 +36600,9 @@ var slidesData = [{
   logo8: "",
   logo9: "",
   logo10: "",
+  logo11: "",
+  logo12: "",
+  logo13: "",
   email: "",
   emaill: "",
   location: "",
@@ -36633,6 +36648,9 @@ var slidesData = [{
   logo8: "",
   logo9: "",
   logo10: "",
+  logo11: "",
+  logo12: "",
+  logo13: "",
   email: "",
   emaill: "",
   location: "",
@@ -36678,6 +36696,9 @@ var slidesData = [{
   logo8: "",
   logo9: "",
   logo10: "",
+  logo11: "",
+  logo12: "",
+  logo13: "",
   email: "",
   emaill: "",
   location: "",
@@ -36711,18 +36732,21 @@ var slidesData = [{
   aalna: "",
   molen: "",
   aladl: "",
-  aladllogo: "<img src='https://i.ibb.co/d2qz4HY/aladl.png' style='width:100%; height:100%;'>",
+  aladllogo: "<img src='https://i.ibb.co/vdW57P4/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
   mosalaha: "",
-  mosalahalogo: "<img src='https://i.ibb.co/Rgh6QYw/Untitled-design-2.png' style='width:100%; height:100%;'>",
+  mosalahalogo: "<img src='https://i.ibb.co/wLb615Q/Untitled-design-6.png' style='width:100%; height:100%; border-radius:10px;'>",
   stc: "",
-  stclogo: "<img src='https://i.ibb.co/P67T2Nd/STC-01-svg.png' style='width:100%; height:100%;'>",
-  zamlia: "<img src='https://i.ibb.co/SKYjm8J/logolw.png' style='width:100%; height:100%;'>",
-  emkan: "<img src='https://i.ibb.co/TL2hfVg/e4cc8ced-97d4-4286-bb1f-30caa8fb39a8.jpg' style='width:100%; height:100%; border-radius:5px;'>",
-  logo6: "<img src='https://i.ibb.co/YZLcrz5/a56cc079-0a75-45dc-8478-230b3570ac0d.jpg' style='width:100%; height:100%; border-radius:5px;'>",
-  logo7: "<img src='https://i.ibb.co/JQkhDLX/0ead656a-b9c2-4d75-99c0-4ad102818f1b.jpg' style='width:100%; height:100%; border-radius:5px;'>",
-  logo8: "<img src='https://i.ibb.co/JqMSQWt/bfcb30c8-a75b-4fb6-944c-9f471eebd9d0.jpg' style='width:100%; height:100%; border-radius:5px;'>",
-  logo9: "<img src='https://i.ibb.co/v1jtfVV/image.png' style='width:100%; height:100%; border-radius:5px;'>",
-  logo10: "<img src='https://i.ibb.co/zsqWkF7/c554ff98-2173-4a18-8492-cdc2a8fea438.jpg' style='width:100%; height:100%; border-radius:5px;'>",
+  stclogo: "<img src='https://i.ibb.co/hF5NDNf/Untitled-design-1.png' style='width:100%; height:100%; border-radius:10px;'>",
+  zamlia: "<img src='https://i.ibb.co/Y215fC1/Untitled-design-2.png' style='width:100%; height:100%; border-radius:10px;'>",
+  emkan: "<img src='https://i.ibb.co/mqsgzz8/Untitled-design-3.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo6: "<img src='https://i.ibb.co/7ykXYmv/Untitled-design-4.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo7: "<img src='https://i.ibb.co/jvgvMGb/Untitled-design-5.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo8: "<img src='https://i.ibb.co/1TWpfJR/Untitled-design-7.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo9: "<img src='https://i.ibb.co/g3C2rTB/Untitled-design-8.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo10: "<img src='https://i.ibb.co/fnmGhYx/Untitled-design-9.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo11: "<img src='https://i.ibb.co/Pw6R8jk/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo12: "<img src='https://i.ibb.co/c34rVkW/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
+  logo13: "<img src='https://i.ibb.co/Hp3YYXg/Untitled-design.png' style='width:100%; height:100%; border-radius:10px;'>",
   email: "",
   emaill: "",
   location: "",
@@ -36768,6 +36792,9 @@ var slidesData = [{
   logo8: "",
   logo9: "",
   logo10: "",
+  logo11: "",
+  logo12: "",
+  logo13: "",
   email: " <i class='fa fa-envelope' style='color: #FFF;'></i> ",
   emaill: "info@knowhow.sa",
   location: "<i class='fa fa-map-marker' style='color: #FFF;'></i>",
@@ -36833,7 +36860,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58811" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51659" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

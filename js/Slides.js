@@ -54,6 +54,9 @@ class Slides {
       const locationn = createEleWithClass("p", "slide-locationn");
       const logo9 = createEleWithClass("div", "slide-logo9");
       const logo10 = createEleWithClass("div", "slide-logo10");
+      const logo11 = createEleWithClass("div", "slide-logo11");
+      const logo12 = createEleWithClass("div", "slide-logo12");
+      const logo13 = createEleWithClass("div", "slide-logo13");
     
 
 
@@ -102,6 +105,9 @@ class Slides {
       locationn.innerHTML = entry.locationn;
       logo9.innerHTML = entry.logo9;
       logo10.innerHTML = entry.logo10;
+      logo11.innerHTML = entry.logo11;
+      logo12.innerHTML = entry.logo12;
+      logo13.innerHTML = entry.logo13;
 
 
       slide.appendChild(title);
@@ -147,6 +153,9 @@ class Slides {
       slide.appendChild(locationn);
       slide.appendChild(logo9);
       slide.appendChild(logo10);
+      slide.appendChild(logo11);
+      slide.appendChild(logo12);
+      slide.appendChild(logo13);
 
       
       this.container.appendChild(slide);
