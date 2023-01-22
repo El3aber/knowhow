@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "images": "^3.2.4",
+    "nodemailer": "^6.9.0",
     "popmotion": "^8.6.4",
     "stats.js": "^0.17.0",
     "three": "^0.101.1"

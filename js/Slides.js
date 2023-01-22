@@ -28,9 +28,9 @@ class Slides {
       const ketaba = createEleWithClass("p", "slide-ketaba");
       const arkam = createEleWithClass("p", "slide-arkam");
       const hakakna = createEleWithClass("p", "slide-hakakna");
-      const zohor = createEleWithClass("p", "slide-zohor");
+      const zohor = createEleWithClass("div", "slide-zohor");
       const katabna = createEleWithClass("p", "slide-katabna");
-      const mohtawa = createEleWithClass("p", "slide-mohtawa");
+      const mohtawa = createEleWithClass("div", "slide-mohtawa");
       const nafazna = createEleWithClass("p", "slide-nafazna");
       const graphic = createEleWithClass("p", "slide-graphic");
       const antjna = createEleWithClass("p", "slide-antjna");

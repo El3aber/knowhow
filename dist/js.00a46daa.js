@@ -36205,9 +36205,9 @@ var Slides = /*#__PURE__*/function () {
       var ketaba = createEleWithClass("p", "slide-ketaba");
       var arkam = createEleWithClass("p", "slide-arkam");
       var hakakna = createEleWithClass("p", "slide-hakakna");
-      var zohor = createEleWithClass("p", "slide-zohor");
+      var zohor = createEleWithClass("div", "slide-zohor");
       var katabna = createEleWithClass("p", "slide-katabna");
-      var mohtawa = createEleWithClass("p", "slide-mohtawa");
+      var mohtawa = createEleWithClass("div", "slide-mohtawa");
       var nafazna = createEleWithClass("p", "slide-nafazna");
       var graphic = createEleWithClass("p", "slide-graphic");
       var antjna = createEleWithClass("p", "slide-antjna");
@@ -36739,10 +36739,10 @@ var slidesData = [{
   tahseen: "",
   ketaba: "",
   arkam: ":أرقام وإحصاءات",
-  hakakna: "حققنا",
-  zohor: "ظهورㅤ40,000,000+",
-  katabna: "كتبنا",
-  mohtawa: "محتوىㅤ2500+",
+  hakakna: "",
+  zohor: "<img src='https://i.ibb.co/T19zk6g/zohoor.png' style='width:100%; height:100%; border-radius:20px;'>",
+  katabna: "",
+  mohtawa: "<img src='https://i.ibb.co/whB6zSN/mohtawa.png' style='width:100%; height:100%; border-radius:20px;'>",
   nafazna: "نفذنا",
   graphic: "تصميم جرافيكㅤ1000+",
   antjna: "أنتجنا",
@@ -36959,7 +36959,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60866" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64073" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
