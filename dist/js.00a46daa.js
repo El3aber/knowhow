@@ -36548,8 +36548,8 @@ var Cursor = /*#__PURE__*/function () {
   return Cursor;
 }();
 exports.Cursor = Cursor;
-},{}],"images/1.jpg":[function(require,module,exports) {
-module.exports = "/1.106c6bd6.jpg";
+},{}],"images/1.png":[function(require,module,exports) {
+module.exports = "/1.a7f2b1ea.png";
 },{}],"images/2.png":[function(require,module,exports) {
 module.exports = "/2.34844cc1.png";
 },{}],"js/index.js":[function(require,module,exports) {
@@ -36558,7 +36558,7 @@ module.exports = "/2.34844cc1.png";
 var _Showcase = require("./Showcase");
 var _Slides = require("./Slides");
 var _Cursor = require("./Cursor");
-var _ = _interopRequireDefault(require("../images/1.jpg"));
+var _ = _interopRequireDefault(require("../images/1.png"));
 var _2 = _interopRequireDefault(require("../images/2.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var container = document.getElementById("app");
@@ -36694,7 +36694,7 @@ var slidesData = [{
   location: "",
   locationn: ""
 }, {
-  image: _2.default,
+  image: _.default,
   title: "",
   heenaba: "",
   monzo: "",
@@ -36824,7 +36824,7 @@ var slidesData = [{
   locationn: "",
   heena: ""
 }, {
-  image: _2.default,
+  image: _.default,
   title: "",
   heenaba: "",
   monzo: "",
@@ -36988,7 +36988,7 @@ window.addEventListener("resize", function () {
 window.addEventListener("mousemove", function (ev) {
   showcase.onMouseMove(ev);
 });
-},{"./Showcase":"js/Showcase.js","./Slides":"js/Slides.js","./Cursor":"js/Cursor.js","../images/1.jpg":"images/1.jpg","../images/2.png":"images/2.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./Showcase":"js/Showcase.js","./Slides":"js/Slides.js","./Cursor":"js/Cursor.js","../images/1.png":"images/1.png","../images/2.png":"images/2.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -37013,7 +37013,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62562" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53118" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

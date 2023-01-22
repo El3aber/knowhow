@@ -231,7 +231,34 @@ canvas {
 .slide-email,
 .slide-emaill,
 .slide-location,
-.slide-locationn {
+.slide-locationn,
+.slide-abdaana,
+.slide-wasaloo,
+.slide-ettasel,
+.slide-logo6,
+.slide-logo7,
+.slide-logo8,
+.slide-logo9,
+.slide-logo10,
+.slide-logo11,
+.slide-logo12,
+.slide-logo13,
+.slide-logo14,
+.slide-logo15,
+.slide-logo16,
+.slide-logo17,
+.slide-logo18,
+.slide-logo19,
+.slide-logo20,
+.slide-logo21,
+.slide-logo22,
+.slide-logo23,
+.slide-logo24,
+.slide-aladllogo,
+.slide-zamlia,
+.slide-emkan,
+.slide-mosalahalogo,
+.slide-stclogo {
 
   opacity: 0;
   transition: opacity 900ms cubic-bezier(0.2, 1, 0.3, 1);
@@ -263,7 +290,34 @@ canvas {
 .show-meta .slide-email,
 .show-meta .slide-emaill,
 .show-meta .slide-location,
-.show-meta .slide-locationn {
+.show-meta .slide-locationn,
+.show-meta .slide-abdaana,
+.show-meta .slide-wasaloo,
+.show-meta .slide-ettasel,
+.show-meta .slide-logo6,
+.show-meta .slide-logo7,
+.show-meta .slide-logo8,
+.show-meta .slide-logo9,
+.show-meta .slide-logo10,
+.show-meta .slide-logo11,
+.show-meta .slide-logo12,
+.show-meta .slide-logo13,
+.show-meta .slide-logo14,
+.show-meta .slide-logo15,
+.show-meta .slide-logo16,
+.show-meta .slide-logo17,
+.show-meta .slide-logo18,
+.show-meta .slide-logo19,
+.show-meta .slide-logo20,
+.show-meta .slide-logo21,
+.show-meta .slide-logo22,
+.show-meta .slide-logo23,
+.show-meta .slide-logo24,
+.show-meta .slide-aladllogo,
+.show-meta .slide-stclogo,
+.show-meta .slide-emkan,
+.show-meta .slide-zamlia,
+.show-meta .slide-mosalahalogo{
   opacity: 1;
   transition: opacity 1500ms 300ms cubic-bezier(0.2, 1, 0.3, 1);
 }
@@ -652,7 +706,7 @@ canvas {
   font-family: tajawal;
   position: absolute;
   top: -30%;
-  left: 35%;
+  left: 37%;
   width: 25%;
   height: 45%;
 }
