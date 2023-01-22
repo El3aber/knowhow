@@ -36948,9 +36948,9 @@ var slidesData = [{
   logo22: "",
   logo23: "",
   logo24: "",
-  email: " <i class='fa fa-envelope' style='color: #FFF;'></i> ",
+  email: " <i class='fa fa-envelope' style='color: #490E66;'></i> ",
   emaill: "info@knowhow.sa",
-  location: "<i class='fa fa-map-marker' style='color: #FFF;'></i>",
+  location: "<i class='fa fa-map-marker' style='color: #490E66;'></i>",
   locationn: "المملكة العربية السعودية، الرياض، حي الروضة، شارع خالد بن الوليد 13211",
   heena: ""
 }];
@@ -37013,7 +37013,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53118" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63810" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
