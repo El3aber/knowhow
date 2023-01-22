@@ -240,7 +240,7 @@ const slidesData = [
     antjna:"",
     maktaa:"<img src='https://i.ibb.co/xGBFYqj/makta3.png' style='width:100%; height:100%; border-radius:20px;'>",
     aalna:"",
-    molen:"<img src='https://i.ibb.co/xGBFYqj/makta3.png' style='width:100%; height:100%; border-radius:20px;'>",
+    molen:"<img src='https://i.ibb.co/kGwV3sL/molen.png' style='width:100%; height:100%; border-radius:20px;'>",
     aladl:"",
     aladllogo:"",
     mosalaha:"",

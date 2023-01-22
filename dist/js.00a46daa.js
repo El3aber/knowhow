@@ -36790,7 +36790,7 @@ var slidesData = [{
   antjna: "",
   maktaa: "<img src='https://i.ibb.co/xGBFYqj/makta3.png' style='width:100%; height:100%; border-radius:20px;'>",
   aalna: "",
-  molen: "<img src='https://i.ibb.co/xGBFYqj/makta3.png' style='width:100%; height:100%; border-radius:20px;'>",
+  molen: "<img src='https://i.ibb.co/kGwV3sL/molen.png' style='width:100%; height:100%; border-radius:20px;'>",
   aladl: "",
   aladllogo: "",
   mosalaha: "",
@@ -37013,7 +37013,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50950" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62562" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

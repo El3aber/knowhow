@@ -659,10 +659,10 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-zohor {
     font-size: 6vw;
-    top: -30%;
+    top: -35%;
     left: 20%;
     width:60% ;
-    height:30% ;
+    height:33% ;
   }
 }
 .prev .slide-zohor,
@@ -714,10 +714,10 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-mohtawa {
     font-size: 6vw;
-    top: 5%;
+    top: 0%;
     left: 20%;
     width: 60%;
-    height: 30%;
+    height: 33%;
   }
 }
 .prev .slide-mohtawa,
@@ -770,10 +770,10 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-graphic {
     font-size: 6vw;
-    top: 75%;
+    top: 70%;
     left: 20%;
     width: 60%;
-    height: 30%;
+    height: 33%;
   }
 }
 .prev .slide-graphic,
@@ -825,10 +825,10 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-maktaa {
     font-size: 6vw;
-    top: 31.7%;
+    top: 26.7%;
     left: 20%;
     width: 60%;
-    height: 30%;
+    height: 33%;
   }
 }
 .prev .slide-maktaa,
@@ -881,10 +881,10 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-molen {
     font-size: 6vw;
-    top: 102%;
+    top: 97%;
     left: 20%;
     width: 60%;
-    height: 30%;
+    height: 33%;
   }
 }
 .prev .slide-molen,
