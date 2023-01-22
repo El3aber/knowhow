@@ -12,11 +12,17 @@ class Slides {
     this.slides = this.data.map((entry, index) => {
       const slide = createEleWithClass("div", "slide");
       const title = createEleWithClass("h1", "slide-title");
-      const meta = createEleWithClass("p", "slide-meta");
-      const more = createEleWithClass("h3", "slide-more");
+      const monzo = createEleWithClass("p", "slide-monzo");
+      const heenaba = createEleWithClass("h3", "slide-heenaba");
       const heena = createEleWithClass("h1", "slide-heena");
       const noheetoka = createEleWithClass("h1", "slide-noheetoka");
+      const betawaslna = createEleWithClass("h1", "slide-betawaslna");
+      const sharakoona = createEleWithClass("h1", "slide-sharakoona");
+      const belebdaa = createEleWithClass("h1", "slide-belebdaa");
       const kaddamna = createEleWithClass("h1", "slide-kaddamna");
+      const ettasel = createEleWithClass("h1", "slide-ettasel");
+      const wasaloo = createEleWithClass("h1", "slide-wasaloo");
+      const abdaana = createEleWithClass("h1", "slide-abdaana");
       const khadamat = createEleWithClass("p", "slide-khadamat");
       const takhteet = createEleWithClass("p", "slide-takhteet");
       const takhteett = createEleWithClass("p", "slide-takhteett");
@@ -32,7 +38,7 @@ class Slides {
       const katabna = createEleWithClass("p", "slide-katabna");
       const mohtawa = createEleWithClass("div", "slide-mohtawa");
       const nafazna = createEleWithClass("p", "slide-nafazna");
-      const graphic = createEleWithClass("p", "slide-graphic");
+      const graphic = createEleWithClass("div", "slide-graphic");
       const antjna = createEleWithClass("p", "slide-antjna");
       const maktaa = createEleWithClass("p", "slide-maktaa");
       const aalna = createEleWithClass("p", "slide-aalna");
@@ -71,14 +77,20 @@ class Slides {
     
 
 
-      more.href = "#";
+      heenaba.href = "#";
       slide.classList.add(index !== 0 ? "next" : "show-meta");
-      meta.innerHTML = entry.meta;
+      monzo.innerHTML = entry.monzo;
       title.innerHTML = entry.title;
-      more.innerHTML = entry.more;
+      heenaba.innerHTML = entry.heenaba;
       heena.innerHTML = entry.heena;
       noheetoka.innerHTML = entry.noheetoka;
+      betawaslna.innerHTML = entry.betawaslna;
+      sharakoona.innerHTML = entry.sharakoona;
+      belebdaa.innerHTML = entry.belebdaa;
       kaddamna.innerHTML = entry.kaddamna;
+      ettasel.innerHTML = entry.ettasel;
+      wasaloo.innerHTML = entry.wasaloo;
+      abdaana.innerHTML = entry.abdaana;
       khadamat.innerHTML = entry.khadamat;
       takhteet.innerHTML = entry.takhteet;
       takhteett.innerHTML = entry.takhteett;
@@ -133,11 +145,17 @@ class Slides {
 
 
       slide.appendChild(title);
-      slide.appendChild(more);
+      slide.appendChild(heenaba);
       slide.appendChild(heena);
-      slide.appendChild(meta);
+      slide.appendChild(monzo);
       slide.appendChild(noheetoka);
+      slide.appendChild(betawaslna);
+      slide.appendChild(sharakoona);
+      slide.appendChild(belebdaa);
       slide.appendChild(kaddamna);
+      slide.appendChild(ettasel);
+      slide.appendChild(wasaloo);
+      slide.appendChild(abdaana);
       slide.appendChild(khadamat);
       slide.appendChild(takhteet);
       slide.appendChild(takhteett);

@@ -36189,11 +36189,17 @@ var Slides = /*#__PURE__*/function () {
     this.slides = this.data.map(function (entry, index) {
       var slide = createEleWithClass("div", "slide");
       var title = createEleWithClass("h1", "slide-title");
-      var meta = createEleWithClass("p", "slide-meta");
-      var more = createEleWithClass("h3", "slide-more");
+      var monzo = createEleWithClass("p", "slide-monzo");
+      var heenaba = createEleWithClass("h3", "slide-heenaba");
       var heena = createEleWithClass("h1", "slide-heena");
       var noheetoka = createEleWithClass("h1", "slide-noheetoka");
+      var betawaslna = createEleWithClass("h1", "slide-betawaslna");
+      var sharakoona = createEleWithClass("h1", "slide-sharakoona");
+      var belebdaa = createEleWithClass("h1", "slide-belebdaa");
       var kaddamna = createEleWithClass("h1", "slide-kaddamna");
+      var ettasel = createEleWithClass("h1", "slide-ettasel");
+      var wasaloo = createEleWithClass("h1", "slide-wasaloo");
+      var abdaana = createEleWithClass("h1", "slide-abdaana");
       var khadamat = createEleWithClass("p", "slide-khadamat");
       var takhteet = createEleWithClass("p", "slide-takhteet");
       var takhteett = createEleWithClass("p", "slide-takhteett");
@@ -36209,7 +36215,7 @@ var Slides = /*#__PURE__*/function () {
       var katabna = createEleWithClass("p", "slide-katabna");
       var mohtawa = createEleWithClass("div", "slide-mohtawa");
       var nafazna = createEleWithClass("p", "slide-nafazna");
-      var graphic = createEleWithClass("p", "slide-graphic");
+      var graphic = createEleWithClass("div", "slide-graphic");
       var antjna = createEleWithClass("p", "slide-antjna");
       var maktaa = createEleWithClass("p", "slide-maktaa");
       var aalna = createEleWithClass("p", "slide-aalna");
@@ -36245,14 +36251,20 @@ var Slides = /*#__PURE__*/function () {
       var logo22 = createEleWithClass("div", "slide-logo22");
       var logo23 = createEleWithClass("div", "slide-logo23");
       var logo24 = createEleWithClass("div", "slide-logo24");
-      more.href = "#";
+      heenaba.href = "#";
       slide.classList.add(index !== 0 ? "next" : "show-meta");
-      meta.innerHTML = entry.meta;
+      monzo.innerHTML = entry.monzo;
       title.innerHTML = entry.title;
-      more.innerHTML = entry.more;
+      heenaba.innerHTML = entry.heenaba;
       heena.innerHTML = entry.heena;
       noheetoka.innerHTML = entry.noheetoka;
+      betawaslna.innerHTML = entry.betawaslna;
+      sharakoona.innerHTML = entry.sharakoona;
+      belebdaa.innerHTML = entry.belebdaa;
       kaddamna.innerHTML = entry.kaddamna;
+      ettasel.innerHTML = entry.ettasel;
+      wasaloo.innerHTML = entry.wasaloo;
+      abdaana.innerHTML = entry.abdaana;
       khadamat.innerHTML = entry.khadamat;
       takhteet.innerHTML = entry.takhteet;
       takhteett.innerHTML = entry.takhteett;
@@ -36305,11 +36317,17 @@ var Slides = /*#__PURE__*/function () {
       logo23.innerHTML = entry.logo23;
       logo24.innerHTML = entry.logo24;
       slide.appendChild(title);
-      slide.appendChild(more);
+      slide.appendChild(heenaba);
       slide.appendChild(heena);
-      slide.appendChild(meta);
+      slide.appendChild(monzo);
       slide.appendChild(noheetoka);
+      slide.appendChild(betawaslna);
+      slide.appendChild(sharakoona);
+      slide.appendChild(belebdaa);
       slide.appendChild(kaddamna);
+      slide.appendChild(ettasel);
+      slide.appendChild(wasaloo);
+      slide.appendChild(abdaana);
       slide.appendChild(khadamat);
       slide.appendChild(takhteet);
       slide.appendChild(takhteett);
@@ -36548,10 +36566,16 @@ var cursor = new _Cursor.Cursor(document.querySelector(".cursor"));
 var slidesData = [{
   image: _.default,
   title: "المعرفة أساس الوصول",
-  more: "",
-  meta: "",
+  heenaba: "",
+  monzo: "",
   noheetoka: "",
+  betawaslna: "",
+  sharakoona: "",
+  belebdaa: "",
   kaddamna: "",
+  ettasel: "",
+  wasaloo: "",
+  abdaana: "",
   khadamat: "",
   takhteet: "",
   takhteett: "",
@@ -36607,10 +36631,17 @@ var slidesData = [{
 }, {
   image: _2.default,
   title: "",
-  more: ",حين بدأنا",
-  meta: "منذ 10 سنوات .. انطلقنا في رحلة غامرة بتفاصيلها، في عالم التسويق الإلكتروني والإعلام الرقمي، وصرنا أكثر دراية بمساراته المختلفة والمتنوعة، وقدرة على تحديد الوجهة لكل من أراد الانطلاق والوصول، بفريق يمتلك مهارة عالية وخبرات متعددة، يقوم بأداء مهامه على أكمل وجه، لنصل نحن وشركاؤنا ونحقق الأهداف",
+  heena: "حين تود الإنطلاق نرسم لك مسارك",
+  heenaba: ",حين بدأنا",
+  monzo: "منذ 10 سنوات .. انطلقنا في رحلة غامرة بتفاصيلها، في عالم التسويق الإلكتروني والإعلام الرقمي، وصرنا أكثر دراية بمساراته المختلفة والمتنوعة، وقدرة على تحديد الوجهة لكل من أراد الانطلاق والوصول، بفريق يمتلك مهارة عالية وخبرات متعددة، يقوم بأداء مهامه على أكمل وجه، لنصل نحن وشركاؤنا ونحقق الأهداف",
   noheetoka: "",
+  betawaslna: "",
+  sharakoona: "",
+  belebdaa: "",
   kaddamna: "",
+  ettasel: "",
+  wasaloo: "",
+  abdaana: "",
   khadamat: "",
   takhteet: "",
   takhteett: "",
@@ -36661,15 +36692,20 @@ var slidesData = [{
   email: "",
   emaill: "",
   location: "",
-  locationn: "",
-  heena: "حين تود الإنطلاق نرسم لك مسارك"
+  locationn: ""
 }, {
   image: _2.default,
   title: "",
-  more: "",
-  meta: "",
+  heenaba: "",
+  monzo: "",
   noheetoka: "! نحيطك علمًا دعمًا، لتحقق حلمًا",
+  betawaslna: "",
+  sharakoona: "",
+  belebdaa: "",
   kaddamna: ",قدمنا",
+  ettasel: "",
+  wasaloo: "",
+  abdaana: "",
   khadamat: "خدمات عديدة، استطعنا من خلالها تحقيق أهداف شركائنا",
   takhteet: ":تخطيط وتنفيذ الحملات التسويقية",
   takhteett: "تخطيط حملات تسويقية متكاملة، وتنفيذها باحترافية عالية، من خلال استخدام وسائل التسويق الرقمي، ووسائل الإعلام التقليدي، إضافة إلى إعلانات المشاهير والمؤثرين، وإعلانات الطرق",
@@ -36725,10 +36761,16 @@ var slidesData = [{
 }, {
   image: _2.default,
   title: "",
-  more: "",
-  meta: "",
-  noheetoka: "! بالإبداع صُلنا، حتى وصلنا",
-  kaddamna: ",أبدعنا",
+  heenaba: "",
+  monzo: "",
+  noheetoka: "",
+  betawaslna: "",
+  sharakoona: "",
+  belebdaa: "! بالإبداع صُلنا، حتى وصلنا",
+  kaddamna: "",
+  ettasel: "",
+  wasaloo: "",
+  abdaana: ",أبدعنا",
   khadamat: "",
   takhteet: "",
   takhteett: "",
@@ -36742,13 +36784,13 @@ var slidesData = [{
   hakakna: "",
   zohor: "<img src='https://i.ibb.co/T19zk6g/zohoor.png' style='width:100%; height:100%; border-radius:20px;'>",
   katabna: "",
-  mohtawa: "<img src='https://i.ibb.co/whB6zSN/mohtawa.png' style='width:100%; height:100%; border-radius:20px;'>",
-  nafazna: "نفذنا",
-  graphic: "تصميم جرافيكㅤ1000+",
-  antjna: "أنتجنا",
-  maktaa: "مقطع مرئيㅤ500+",
-  aalna: "أعلنا مع",
-  molen: "معـــــــــــلــنㅤ150+",
+  mohtawa: "<img src='https://i.ibb.co/w7c0RJy/mohtawa.png' style='width:100%; height:100%; border-radius:20px;'>",
+  nafazna: "",
+  graphic: "<img src='https://i.ibb.co/3MPrK8L/graphic.png' style='width:100%; height:100%; border-radius:20px;'>",
+  antjna: "",
+  maktaa: "<img src='https://i.ibb.co/xGBFYqj/makta3.png' style='width:100%; height:100%; border-radius:20px;'>",
+  aalna: "",
+  molen: "<img src='https://i.ibb.co/xGBFYqj/makta3.png' style='width:100%; height:100%; border-radius:20px;'>",
   aladl: "",
   aladllogo: "",
   mosalaha: "",
@@ -36784,10 +36826,16 @@ var slidesData = [{
 }, {
   image: _2.default,
   title: "",
-  more: "",
-  meta: "",
-  noheetoka: "!شاركونا الرحلة وشاركناهم الإبداع",
-  kaddamna: ",وصلوا معنا",
+  heenaba: "",
+  monzo: "",
+  noheetoka: "",
+  betawaslna: "",
+  sharakoona: "!شاركونا الرحلة وشاركناهم الإبداع",
+  belebdaa: "",
+  kaddamna: "",
+  ettasel: "",
+  wasaloo: ",وصلوا معنا",
+  abdaana: "",
   khadamat: "",
   takhteet: "",
   takhteett: "",
@@ -36843,10 +36891,16 @@ var slidesData = [{
 }, {
   image: _2.default,
   title: "",
-  more: "",
-  meta: "",
-  noheetoka: "بتواصلنا نبدأ رحلتنا",
-  kaddamna: ",إتصل بنا",
+  heenaba: "",
+  monzo: "",
+  noheetoka: "",
+  betawaslna: "بتواصلنا نبدأ رحلتنا",
+  sharakoona: "",
+  belebdaa: "",
+  kaddamna: "",
+  ettasel: ",إتصل بنا",
+  wasaloo: "",
+  abdaana: "",
   khadamat: "",
   takhteet: "",
   takhteett: "",
@@ -36959,7 +37013,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64073" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50950" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -113,8 +113,81 @@ canvas {
 }
 /* ----------------------------------------------------------------slide-noheetoka-------------------------------------------------------------------------------- */
 
-/* ----------------------------------------------------------------slide-meta-------------------------------------------------------------------------------- */
-.slide-meta {
+/* ----------------------------------------------------------------slide-betawaslna-------------------------------------------------------------------------------- */
+.slide-betawaslna {
+  font-size: 3vw;
+  font-family: tajawal;
+  align-self: center;
+  position: absolute;
+  top: -110%;
+  color: #fff;
+  text-align: center;
+}
+.prev .slide-betawaslna,
+.next .slide-betawaslna {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .slide-betawaslna {
+    font-size: 9vw;
+    top: -100%
+  }
+}
+/* ----------------------------------------------------------------slide-betawaslna-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-sharakoona-------------------------------------------------------------------------------- */
+.slide-sharakoona {
+  font-size: 3vw;
+  font-family: tajawal;
+  align-self: center;
+  position: absolute;
+  top: -110%;
+  color: #fff;
+  text-align: center;
+}
+.prev .slide-sharakoona,
+.next .slide-sharakoona {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .slide-sharakoona {
+    font-size: 9vw;
+    top: -100%
+  }
+}
+/* ----------------------------------------------------------------slide-sharakoona-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-belebdaa-------------------------------------------------------------------------------- */
+.slide-belebdaa {
+  font-size: 3vw;
+  font-family: tajawal;
+  align-self: center;
+  position: absolute;
+  top: -110%;
+  color: #fff;
+  text-align: center;
+}
+.prev .slide-belebdaa,
+.next .slide-belebdaa {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .slide-belebdaa {
+    font-size: 9vw;
+    top: -115%
+
+  }
+}
+/* ----------------------------------------------------------------slide-belebdaa-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-monzo-------------------------------------------------------------------------------- */
+.slide-monzo {
   font-size: 2.65rem;
   font-family: tajawal;
   text-align: right;
@@ -123,17 +196,17 @@ canvas {
   right: 3%;
 }
 @media only screen and (max-width: 600px) {
-  .slide-meta {
+  .slide-monzo {
     font-size: 6.2vw;
     top: -20%;
     right: 5%;
   }
 }
-/* ----------------------------------------------------------------slide-meta-------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------slide-monzo-------------------------------------------------------------------------------- */
 
-/* ----------------------------------------------------------------slide-meta && more-------------------------------------------------------------------------------- */
-.slide-meta,
-.slide-more,
+/* ----------------------------------------------------------------slide-monzo && heenaba-------------------------------------------------------------------------------- */
+.slide-monzo,
+.slide-heenaba,
 .slide-kaddamna,
 .slide-khadamat,
 .slide-takhteet,
@@ -164,8 +237,8 @@ canvas {
   transition: opacity 900ms cubic-bezier(0.2, 1, 0.3, 1);
 }
 
-.show-meta .slide-meta,
-.show-meta .slide-more,
+.show-meta .slide-monzo,
+.show-meta .slide-heenaba,
 .show-meta .slide-kaddamna,
 .show-meta .slide-khadamat,
 .show-meta .slide-takhteet,
@@ -194,22 +267,22 @@ canvas {
   opacity: 1;
   transition: opacity 1500ms 300ms cubic-bezier(0.2, 1, 0.3, 1);
 }
-/* ----------------------------------------------------------------slide-meta && more-------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------slide-meta && heenaba-------------------------------------------------------------------------------- */
 
-/* ----------------------------------------------------------------slide-more-------------------------------------------------------------------------------- */
-.slide-more {
+/* ----------------------------------------------------------------slide-heenaba-------------------------------------------------------------------------------- */
+.slide-heenaba {
   font-size: 2vw;
   font-family: tajawal;
   position: absolute;
   top: -30%;
 }
 @media only screen and (max-width: 600px) {
-  .slide-more {
+  .slide-heenaba {
     font-size: 5vw;
     top: -40%;
   }
 }
-/* ----------------------------------------------------------------slide-more-------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------slide-heenaba-------------------------------------------------------------------------------- */
 
 /* ----------------------------------------------------------------slide-kaddamna-------------------------------------------------------------------------------- */
 .slide-kaddamna {
@@ -231,6 +304,69 @@ canvas {
   display: none;
 }
 /* ----------------------------------------------------------------slide-kaddamna-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-ettasel-------------------------------------------------------------------------------- */
+.slide-ettasel {
+  font-size: 2vw;
+  font-family: tajawal;
+  position: absolute;
+  top:-70%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-ettasel {
+    font-size: 5vw;
+    top: -50%;
+  }
+}
+.prev .slide-ettasel,
+.next .slide-ettasel {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-ettasel-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-wasaloo-------------------------------------------------------------------------------- */
+.slide-wasaloo {
+  font-size: 2vw;
+  font-family: tajawal;
+  position: absolute;
+  top:-70%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-wasaloo {
+    font-size: 5vw;
+    top: -50%;
+  }
+}
+.prev .slide-wasaloo,
+.next .slide-wasaloo {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-wasaloo-------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------slide-abdaana-------------------------------------------------------------------------------- */
+.slide-abdaana {
+  font-size: 2vw;
+  font-family: tajawal;
+  position: absolute;
+  top:-70%;
+}
+@media only screen and (max-width: 600px) {
+  .slide-abdaana {
+    font-size: 5vw;
+    top: -70%;
+  }
+}
+.prev .slide-abdaana,
+.next .slide-abdaana {
+  position: absolute;
+  top: 0px;
+  display: none;
+}
+/* ----------------------------------------------------------------slide-abdaana-------------------------------------------------------------------------------- */
 
 /* ----------------------------------------------------------------slide-khadamat-------------------------------------------------------------------------------- */
 .slide-khadamat {
@@ -469,7 +605,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-arkam {
     font-size: 4vw;
-    top: -35%;
+    top: -55%;
     text-align: right;
   }
 }
@@ -489,7 +625,7 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top: 0%;
+  top: -30%;
   left: 45%;
 }
 @media only screen and (max-width: 600px) {
@@ -515,7 +651,7 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top: 5%;
+  top: -30%;
   left: 35%;
   width: 25%;
   height: 45%;
@@ -523,7 +659,7 @@ canvas {
 @media only screen and (max-width: 600px) {
   .slide-zohor {
     font-size: 6vw;
-    top: -10%;
+    top: -30%;
     left: 20%;
     width:60% ;
     height:30% ;
@@ -570,15 +706,15 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top: 45%;
-  right: -4%;
+  top: 25%;
+  right: 0%;
   width: 25%;
   height: 45%;
 }
 @media only screen and (max-width: 600px) {
   .slide-mohtawa {
     font-size: 6vw;
-    top: 25%;
+    top: 5%;
     left: 20%;
     width: 60%;
     height: 30%;
@@ -600,7 +736,7 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 0%;
 }
 @media only screen and (max-width: 600px) {
@@ -626,14 +762,18 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top: 45%;
-  left: -6%;
+  top: 25%;
+  left: 0%;
+  width: 25%;
+  height: 45%;
 }
 @media only screen and (max-width: 600px) {
   .slide-graphic {
     font-size: 6vw;
-    top: 50%;
-    left: 15%;
+    top: 75%;
+    left: 20%;
+    width: 60%;
+    height: 30%;
   }
 }
 .prev .slide-graphic,
@@ -677,14 +817,18 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top: 95%;
-  right: -4%;
+  top: 75%;
+  right: 0%;
+  width: 25%;
+  height: 45%;
 }
 @media only screen and (max-width: 600px) {
   .slide-maktaa {
     font-size: 6vw;
-    top: 80%;
+    top: 31.7%;
     left: 20%;
+    width: 60%;
+    height: 30%;
   }
 }
 .prev .slide-maktaa,
@@ -729,14 +873,18 @@ canvas {
   -moz-osx-font-smoothing: grayscale;
   font-family: tajawal;
   position: absolute;
-  top: 95%;
-  left: -4%;
+  top: 75%;
+  left: 0%;
+  width: 25%;
+  height: 45%;
 }
 @media only screen and (max-width: 600px) {
   .slide-molen {
     font-size: 6vw;
-    top: 110%;
-    left: 25%;
+    top: 102%;
+    left: 20%;
+    width: 60%;
+    height: 30%;
   }
 }
 .prev .slide-molen,
