@@ -36548,6 +36548,10 @@ var Cursor = /*#__PURE__*/function () {
   return Cursor;
 }();
 exports.Cursor = Cursor;
+},{}],"images/1.webp":[function(require,module,exports) {
+module.exports = "/1.05eb110d.webp";
+},{}],"images/2.webp":[function(require,module,exports) {
+module.exports = "/2.13c4fd2e.webp";
 },{}],"images/1.png":[function(require,module,exports) {
 module.exports = "/1.a7f2b1ea.png";
 },{}],"images/2.png":[function(require,module,exports) {
@@ -36558,8 +36562,10 @@ module.exports = "/2.34844cc1.png";
 var _Showcase = require("./Showcase");
 var _Slides = require("./Slides");
 var _Cursor = require("./Cursor");
-var _ = _interopRequireDefault(require("../images/1.png"));
-var _2 = _interopRequireDefault(require("../images/2.png"));
+var _ = _interopRequireDefault(require("../images/1.webp"));
+var _2 = _interopRequireDefault(require("../images/2.webp"));
+var _3 = _interopRequireDefault(require("../images/1.png"));
+var _4 = _interopRequireDefault(require("../images/2.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var container = document.getElementById("app");
 var cursor = new _Cursor.Cursor(document.querySelector(".cursor"));
@@ -36694,7 +36700,7 @@ var slidesData = [{
   location: "",
   locationn: ""
 }, {
-  image: _.default,
+  image: _3.default,
   title: "",
   heenaba: "",
   monzo: "",
@@ -36759,7 +36765,7 @@ var slidesData = [{
   locationn: "",
   heena: ""
 }, {
-  image: _2.default,
+  image: _4.default,
   title: "",
   heenaba: "",
   monzo: "",
@@ -36782,15 +36788,15 @@ var slidesData = [{
   ketaba: "",
   arkam: ":أرقام وإحصاءات",
   hakakna: "",
-  zohor: "<img src='https://i.ibb.co/T19zk6g/zohoor.png' style='width:100%; height:100%; border-radius:20px;'>",
+  zohor: "<img src='https://i.ibb.co/Fn2p0S8/zohoor.webp' style='width:100%; height:100%; border-radius:20px;'>",
   katabna: "",
-  mohtawa: "<img src='https://i.ibb.co/w7c0RJy/mohtawa.png' style='width:100%; height:100%; border-radius:20px;'>",
+  mohtawa: "<img src='https://i.ibb.co/Xjjrwrx/mohtawa.webp' style='width:100%; height:100%; border-radius:20px;'>",
   nafazna: "",
-  graphic: "<img src='https://i.ibb.co/3MPrK8L/graphic.png' style='width:100%; height:100%; border-radius:20px;'>",
+  graphic: "<img src='https://i.ibb.co/9wRrTnf/graphic.webp' style='width:100%; height:100%; border-radius:20px;'>",
   antjna: "",
-  maktaa: "<img src='https://i.ibb.co/xGBFYqj/makta3.png' style='width:100%; height:100%; border-radius:20px;'>",
+  maktaa: "<img src='https://i.ibb.co/WVxw0pT/makta3.webp' style='width:100%; height:100%; border-radius:20px;'>",
   aalna: "",
-  molen: "<img src='https://i.ibb.co/kGwV3sL/molen.png' style='width:100%; height:100%; border-radius:20px;'>",
+  molen: "<img src='https://i.ibb.co/hZC88kR/molen.webp' style='width:100%; height:100%; border-radius:20px;'>",
   aladl: "",
   aladllogo: "",
   mosalaha: "",
@@ -36824,7 +36830,7 @@ var slidesData = [{
   locationn: "",
   heena: ""
 }, {
-  image: _.default,
+  image: _3.default,
   title: "",
   heenaba: "",
   monzo: "",
@@ -36889,7 +36895,7 @@ var slidesData = [{
   locationn: "",
   heena: ""
 }, {
-  image: _2.default,
+  image: _4.default,
   title: "",
   heenaba: "",
   monzo: "",
@@ -36988,7 +36994,7 @@ window.addEventListener("resize", function () {
 window.addEventListener("mousemove", function (ev) {
   showcase.onMouseMove(ev);
 });
-},{"./Showcase":"js/Showcase.js","./Slides":"js/Slides.js","./Cursor":"js/Cursor.js","../images/1.png":"images/1.png","../images/2.png":"images/2.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./Showcase":"js/Showcase.js","./Slides":"js/Slides.js","./Cursor":"js/Cursor.js","../images/1.webp":"images/1.webp","../images/2.webp":"images/2.webp","../images/1.png":"images/1.png","../images/2.png":"images/2.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -37013,7 +37019,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63810" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59467" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -1,8 +1,8 @@
 import { Showcase } from "./Showcase";
 import { Slides } from "./Slides";
 import { Cursor } from "./Cursor";
-import image1 from "../images/1.png";
-import image2 from "../images/2.png";
+import image1 from "../images/1.webp";
+import image2 from "../images/2.webp";
 import image3 from "../images/1.png";
 import image4 from "../images/2.png";
 import image5 from "../images/1.png";
@@ -232,15 +232,15 @@ const slidesData = [
     ketaba: "",
     arkam: ":أرقام وإحصاءات",
     hakakna: "",
-    zohor: "<img src='https://i.ibb.co/T19zk6g/zohoor.png' style='width:100%; height:100%; border-radius:20px;'>",
+    zohor: "<img src='https://i.ibb.co/Fn2p0S8/zohoor.webp' style='width:100%; height:100%; border-radius:20px;'>",
     katabna:"",
-    mohtawa:"<img src='https://i.ibb.co/w7c0RJy/mohtawa.png' style='width:100%; height:100%; border-radius:20px;'>",
+    mohtawa:"<img src='https://i.ibb.co/Xjjrwrx/mohtawa.webp' style='width:100%; height:100%; border-radius:20px;'>",
     nafazna:"",
-    graphic:"<img src='https://i.ibb.co/3MPrK8L/graphic.png' style='width:100%; height:100%; border-radius:20px;'>",
+    graphic:"<img src='https://i.ibb.co/9wRrTnf/graphic.webp' style='width:100%; height:100%; border-radius:20px;'>",
     antjna:"",
-    maktaa:"<img src='https://i.ibb.co/xGBFYqj/makta3.png' style='width:100%; height:100%; border-radius:20px;'>",
+    maktaa:"<img src='https://i.ibb.co/WVxw0pT/makta3.webp' style='width:100%; height:100%; border-radius:20px;'>",
     aalna:"",
-    molen:"<img src='https://i.ibb.co/kGwV3sL/molen.png' style='width:100%; height:100%; border-radius:20px;'>",
+    molen:"<img src='https://i.ibb.co/hZC88kR/molen.webp' style='width:100%; height:100%; border-radius:20px;'>",
     aladl:"",
     aladllogo:"",
     mosalaha:"",
