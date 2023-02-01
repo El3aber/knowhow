@@ -36251,6 +36251,7 @@ var Slides = /*#__PURE__*/function () {
       var logo22 = createEleWithClass("div", "slide-logo22");
       var logo23 = createEleWithClass("div", "slide-logo23");
       var logo24 = createEleWithClass("div", "slide-logo24");
+      var biglogo = createEleWithClass("div", "slide-biglogo");
       heenaba.href = "#";
       slide.classList.add(index !== 0 ? "next" : "show-meta");
       monzo.innerHTML = entry.monzo;
@@ -36316,6 +36317,7 @@ var Slides = /*#__PURE__*/function () {
       logo22.innerHTML = entry.logo22;
       logo23.innerHTML = entry.logo23;
       logo24.innerHTML = entry.logo24;
+      biglogo.innerHTML = entry.biglogo;
       slide.appendChild(title);
       slide.appendChild(heenaba);
       slide.appendChild(heena);
@@ -36379,6 +36381,7 @@ var Slides = /*#__PURE__*/function () {
       slide.appendChild(logo22);
       slide.appendChild(logo23);
       slide.appendChild(logo24);
+      slide.appendChild(biglogo);
       _this.container.appendChild(slide);
       return slide;
     });
@@ -36624,7 +36627,8 @@ var slidesData = [{
   emaill: "",
   location: "",
   locationn: "",
-  heena: ""
+  heena: "",
+  biglogo: "<img src='https://abdullaomar.com/wp-content/uploads/2023/02/Untitled-design.png' style='width:100%; height:100%;'>"
 }, {
   image: _.default,
   title: "",
@@ -36689,7 +36693,8 @@ var slidesData = [{
   email: "",
   emaill: "",
   location: "",
-  locationn: ""
+  locationn: "",
+  biglogo: ""
 }, {
   image: _.default,
   title: "",
@@ -36754,7 +36759,8 @@ var slidesData = [{
   emaill: "",
   location: "",
   locationn: "",
-  heena: ""
+  heena: "",
+  biglogo: ""
 }, {
   image: _.default,
   title: "",
@@ -36819,7 +36825,8 @@ var slidesData = [{
   emaill: "",
   location: "",
   locationn: "",
-  heena: ""
+  heena: "",
+  biglogo: ""
 }, {
   image: _.default,
   title: "",
@@ -36884,7 +36891,8 @@ var slidesData = [{
   emaill: "",
   location: "",
   locationn: "",
-  heena: ""
+  heena: "",
+  biglogo: ""
 }, {
   image: _.default,
   title: "",
@@ -36949,7 +36957,8 @@ var slidesData = [{
   emaill: "info@knowhow.sa",
   location: "<i class='fa fa-map-marker' style='color: #490E66;'></i>",
   locationn: "المملكة العربية السعودية، الرياض، حي الروضة، شارع خالد بن الوليد 13211",
-  heena: ""
+  heena: "",
+  biglogo: ""
 }];
 var slides = new _Slides.Slides(slidesData);
 var showcase = new _Showcase.Showcase(slidesData, {
@@ -37010,7 +37019,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63235" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63357" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

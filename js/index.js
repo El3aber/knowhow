@@ -74,7 +74,8 @@ const slidesData = [
     emaill:"",
     location:"",
     locationn:"",
-    heena:""
+    heena:"",
+    biglogo:"<img src='https://abdullaomar.com/wp-content/uploads/2023/02/Untitled-design.png' style='width:100%; height:100%;'>"
   },
   {
     image: image2,
@@ -141,6 +142,7 @@ const slidesData = [
     emaill:"",
     location:"",
     locationn:"",
+    biglogo:""
   },
   {
     image: image3,
@@ -206,7 +208,8 @@ const slidesData = [
     emaill:"",
     location:"",
     locationn:"",
-    heena:""
+    heena:"",
+    biglogo:""
   },
   {
     image: image4,
@@ -272,7 +275,8 @@ const slidesData = [
     emaill:"",
     location:"",
     locationn:"",
-    heena:""
+    heena:"",
+    biglogo:""
   },
   {
     image: image5,
@@ -338,7 +342,8 @@ const slidesData = [
     emaill:"",
     location:"",
     locationn:"",
-    heena:""
+    heena:"",
+    biglogo:""
   },
   {
     image: image4,
@@ -404,7 +409,8 @@ const slidesData = [
     emaill:"info@knowhow.sa",
     location:"<i class='fa fa-map-marker' style='color: #490E66;'></i>",
     locationn:"المملكة العربية السعودية، الرياض، حي الروضة، شارع خالد بن الوليد 13211",
-    heena:""
+    heena:"",
+    biglogo:""
   }
 ];
 
