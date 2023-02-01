@@ -8,7 +8,7 @@
   <meta name="description" content="A recreation of the sticky image effect seen on the websites of MakeReign and Ultranoir using three.js.">
   <meta name="keywords" content="three.js, sticky, animation, webgl, javascript, scroll, drag">
   <meta name="author" content="Codrops">
-  <link rel="shortcut icon" href="/favicon.26242483.ico">
+  <link rel="shortcut icon" href="/logo.6023b87e.png">
   <link rel="stylesheet" href="https://use.typekit.net/ncw8xrb.css">
   <link rel="stylesheet" type="text/css" href="/base.98fd6c19.css">
   <link rel="stylesheet" type="text/css" href="/styles.b61e60ae.css">
@@ -33,7 +33,7 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
   <main>
     <div class="frame">
       <div class="frame__title-wrap">
-        <img src="/logo.7dc7fd32.webp" style="top: 5%; left: 5%; width: 50px; height: 50px;">
+        <img src="/logo2.3cb6a286.png">
       </div>
       <div class="frame__links">
         <a href="https://twitter.com/Knowhow_sa?t=jDAur-fZtItapEogDKkG0g&s=09"><i class="fa fa-twitter" style="font-size:20px; color: #1DA1F2;"></i></a>
@@ -42,7 +42,7 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
         <a href="https://youtube.com/@user-sd3xx9pz1k"><i class="fa fa-youtube-play" style="font-size:20px; color: #FF0000;"></i></a>
       </div>
       <div class="frame__tip">
-      <p class="frame__tip" style="font-family: tajawal; color: aliceblue;">&nbsp; &nbsp; إسحب الشاشة</p>
+      <p class="frame__tip" style="font-family: tajawal; color: #490E66;">&nbsp; &nbsp; إسحب الشاشة</p>
         <div class="arrow-container">
             <div class="arrow-down"></div>
         </div>
@@ -72,7 +72,7 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
 .arrow-down {
   height: 4px;
   width: 13px;
-  background: white;
+  background:#490E66;
   transform: rotate(225deg);
   transform-origin: 0% 0%;
   border-radius: 5px;
@@ -85,7 +85,7 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
   bottom: 0;
   left: 100%;
   border-radius: 5px;
-  background: white;
+  background:#490E66;
   transform: rotate(-90deg);
   transform-origin: 0% 100%;
 }
@@ -94,7 +94,21 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
 50% {
     transform: translateY(-15px);
   }
-}</style>
+}
+
+.frame__title-wrap {
+    
+    top: 10%!important;
+    width: 70px;
+    height: 70px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }</style>
 
 
 </body"></html>

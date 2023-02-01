@@ -36548,24 +36548,15 @@ var Cursor = /*#__PURE__*/function () {
   return Cursor;
 }();
 exports.Cursor = Cursor;
-},{}],"images/1.webp":[function(require,module,exports) {
-module.exports = "/1.05eb110d.webp";
-},{}],"images/2.webp":[function(require,module,exports) {
-module.exports = "/2.13c4fd2e.webp";
 },{}],"images/1.png":[function(require,module,exports) {
 module.exports = "/1.a7f2b1ea.png";
-},{}],"images/2.png":[function(require,module,exports) {
-module.exports = "/2.34844cc1.png";
 },{}],"js/index.js":[function(require,module,exports) {
 "use strict";
 
 var _Showcase = require("./Showcase");
 var _Slides = require("./Slides");
 var _Cursor = require("./Cursor");
-var _ = _interopRequireDefault(require("../images/1.webp"));
-var _2 = _interopRequireDefault(require("../images/2.webp"));
-var _3 = _interopRequireDefault(require("../images/1.png"));
-var _4 = _interopRequireDefault(require("../images/2.png"));
+var _ = _interopRequireDefault(require("../images/1.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var container = document.getElementById("app");
 var cursor = new _Cursor.Cursor(document.querySelector(".cursor"));
@@ -36635,7 +36626,7 @@ var slidesData = [{
   locationn: "",
   heena: ""
 }, {
-  image: _2.default,
+  image: _.default,
   title: "",
   heena: "حين تود الإنطلاق نرسم لك مسارك",
   heenaba: ",حين بدأنا",
@@ -36700,7 +36691,7 @@ var slidesData = [{
   location: "",
   locationn: ""
 }, {
-  image: _3.default,
+  image: _.default,
   title: "",
   heenaba: "",
   monzo: "",
@@ -36765,7 +36756,7 @@ var slidesData = [{
   locationn: "",
   heena: ""
 }, {
-  image: _4.default,
+  image: _.default,
   title: "",
   heenaba: "",
   monzo: "",
@@ -36830,7 +36821,7 @@ var slidesData = [{
   locationn: "",
   heena: ""
 }, {
-  image: _3.default,
+  image: _.default,
   title: "",
   heenaba: "",
   monzo: "",
@@ -36895,7 +36886,7 @@ var slidesData = [{
   locationn: "",
   heena: ""
 }, {
-  image: _4.default,
+  image: _.default,
   title: "",
   heenaba: "",
   monzo: "",
@@ -36994,7 +36985,7 @@ window.addEventListener("resize", function () {
 window.addEventListener("mousemove", function (ev) {
   showcase.onMouseMove(ev);
 });
-},{"./Showcase":"js/Showcase.js","./Slides":"js/Slides.js","./Cursor":"js/Cursor.js","../images/1.webp":"images/1.webp","../images/2.webp":"images/2.webp","../images/1.png":"images/1.png","../images/2.png":"images/2.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./Showcase":"js/Showcase.js","./Slides":"js/Slides.js","./Cursor":"js/Cursor.js","../images/1.png":"images/1.png"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -37019,7 +37010,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59467" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64340" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
