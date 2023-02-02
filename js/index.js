@@ -75,7 +75,8 @@ const slidesData = [
     location:"",
     locationn:"",
     heena:"",
-    biglogo:"<img src='https://abdullaomar.com/wp-content/uploads/2023/02/Untitled-design.png' style='width:100%; height:100%;'>"
+    biglogo:"<img src='https://abdullaomar.com/wp-content/uploads/2023/02/Untitled-design.png' style='width:100%; height:100%;'>",
+    madeby:"<a href='https://abdullaomar.com'><img class='alignnone wp-image-1833' src='https://i.ibb.co/PTSznKp/Abdullah-1.png' alt='' width='155' height='30' style='border-radius: 5px;' /></a>"
   },
   {
     image: image2,
@@ -142,7 +143,8 @@ const slidesData = [
     emaill:"",
     location:"",
     locationn:"",
-    biglogo:""
+    biglogo:"",
+    madeby:""
   },
   {
     image: image3,
@@ -209,7 +211,8 @@ const slidesData = [
     location:"",
     locationn:"",
     heena:"",
-    biglogo:""
+    biglogo:"",
+    madeby:""
   },
   {
     image: image4,
@@ -276,7 +279,8 @@ const slidesData = [
     location:"",
     locationn:"",
     heena:"",
-    biglogo:""
+    biglogo:"",
+    madeby:""
   },
   {
     image: image5,
@@ -343,7 +347,8 @@ const slidesData = [
     location:"",
     locationn:"",
     heena:"",
-    biglogo:""
+    biglogo:"",
+    madeby:""
   },
   {
     image: image4,
@@ -410,7 +415,8 @@ const slidesData = [
     location:"<i class='fa fa-map-marker' style='color: #490E66;'></i>",
     locationn:"المملكة العربية السعودية، الرياض، حي الروضة، شارع خالد بن الوليد 13211",
     heena:"",
-    biglogo:""
+    biglogo:"",
+    madeby:""
   }
 ];
 

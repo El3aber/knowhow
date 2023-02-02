@@ -75,6 +75,7 @@ class Slides {
       const logo23 = createEleWithClass("div", "slide-logo23");
       const logo24 = createEleWithClass("div", "slide-logo24");
       const biglogo = createEleWithClass("div", "slide-biglogo");
+      const madeby = createEleWithClass("div", "slide-madeby");
     
 
 
@@ -144,6 +145,7 @@ class Slides {
       logo23.innerHTML = entry.logo23;
       logo24.innerHTML = entry.logo24;
       biglogo.innerHTML = entry.biglogo;
+      madeby.innerHTML = entry.madeby;
 
 
       slide.appendChild(title);
@@ -210,6 +212,7 @@ class Slides {
       slide.appendChild(logo23);
       slide.appendChild(logo24);
       slide.appendChild(biglogo);
+      slide.appendChild(madeby);
 
       
       this.container.appendChild(slide);

@@ -36252,6 +36252,7 @@ var Slides = /*#__PURE__*/function () {
       var logo23 = createEleWithClass("div", "slide-logo23");
       var logo24 = createEleWithClass("div", "slide-logo24");
       var biglogo = createEleWithClass("div", "slide-biglogo");
+      var madeby = createEleWithClass("div", "slide-madeby");
       heenaba.href = "#";
       slide.classList.add(index !== 0 ? "next" : "show-meta");
       monzo.innerHTML = entry.monzo;
@@ -36318,6 +36319,7 @@ var Slides = /*#__PURE__*/function () {
       logo23.innerHTML = entry.logo23;
       logo24.innerHTML = entry.logo24;
       biglogo.innerHTML = entry.biglogo;
+      madeby.innerHTML = entry.madeby;
       slide.appendChild(title);
       slide.appendChild(heenaba);
       slide.appendChild(heena);
@@ -36382,6 +36384,7 @@ var Slides = /*#__PURE__*/function () {
       slide.appendChild(logo23);
       slide.appendChild(logo24);
       slide.appendChild(biglogo);
+      slide.appendChild(madeby);
       _this.container.appendChild(slide);
       return slide;
     });
@@ -36628,7 +36631,8 @@ var slidesData = [{
   location: "",
   locationn: "",
   heena: "",
-  biglogo: "<img src='https://abdullaomar.com/wp-content/uploads/2023/02/Untitled-design.png' style='width:100%; height:100%;'>"
+  biglogo: "<img src='https://abdullaomar.com/wp-content/uploads/2023/02/Untitled-design.png' style='width:100%; height:100%;'>",
+  madeby: "<a href='https://abdullaomar.com'><img class='alignnone wp-image-1833' src='https://i.ibb.co/PTSznKp/Abdullah-1.png' alt='' width='155' height='30' style='border-radius: 5px;' /></a>"
 }, {
   image: _.default,
   title: "",
@@ -36694,7 +36698,8 @@ var slidesData = [{
   emaill: "",
   location: "",
   locationn: "",
-  biglogo: ""
+  biglogo: "",
+  madeby: ""
 }, {
   image: _.default,
   title: "",
@@ -36760,7 +36765,8 @@ var slidesData = [{
   location: "",
   locationn: "",
   heena: "",
-  biglogo: ""
+  biglogo: "",
+  madeby: ""
 }, {
   image: _.default,
   title: "",
@@ -36826,7 +36832,8 @@ var slidesData = [{
   location: "",
   locationn: "",
   heena: "",
-  biglogo: ""
+  biglogo: "",
+  madeby: ""
 }, {
   image: _.default,
   title: "",
@@ -36892,7 +36899,8 @@ var slidesData = [{
   location: "",
   locationn: "",
   heena: "",
-  biglogo: ""
+  biglogo: "",
+  madeby: ""
 }, {
   image: _.default,
   title: "",
@@ -36958,7 +36966,8 @@ var slidesData = [{
   location: "<i class='fa fa-map-marker' style='color: #490E66;'></i>",
   locationn: "المملكة العربية السعودية، الرياض، حي الروضة، شارع خالد بن الوليد 13211",
   heena: "",
-  biglogo: ""
+  biglogo: "",
+  madeby: ""
 }];
 var slides = new _Slides.Slides(slidesData);
 var showcase = new _Showcase.Showcase(slidesData, {
@@ -37019,7 +37028,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63357" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50418" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
