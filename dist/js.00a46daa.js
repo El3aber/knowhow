@@ -36632,7 +36632,7 @@ var slidesData = [{
   locationn: "",
   heena: "",
   biglogo: "<img src='https://abdullaomar.com/wp-content/uploads/2023/02/Untitled-design.png' style='width:100%; height:100%;'>",
-  madeby: "<a href='https://abdullaomar.com'><img class='alignnone wp-image-1833' src='https://i.ibb.co/PTSznKp/Abdullah-1.png' alt='' width='155' height='30' style='border-radius: 5px;' /></a>"
+  madeby: ""
 }, {
   image: _.default,
   title: "",
@@ -37028,7 +37028,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64098" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50287" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

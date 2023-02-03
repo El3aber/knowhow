@@ -344,6 +344,15 @@ a:focus {
   margin: 0;
 }
 
+.madeby {
+  position: fixed;
+  right: 2%;
+  width: 100%;
+  bottom: 0%;
+  text-align:right;
+  margin: 0;
+}
+
 .frame__links {
   position: fixed;
   top: 3%;
@@ -404,10 +413,7 @@ a:focus {
     margin: 0 1rem 0 0;
   }
 
-  .frame__tip {
-    grid-area: tip;
-    margin: 0;
-  }
+ 
   
 
   .frame__demos {
